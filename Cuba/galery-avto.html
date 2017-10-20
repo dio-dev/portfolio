@@ -1,0 +1,515 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Evgenia</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/plugin.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+	<header class="wow fadeIn blog-header" data-wow-duration="1s" data-wow-delay="0s" >
+		<div class="menu">
+			<div class="container">
+				<div class="logo"><img src="img/logo-black.png" alt="logo"></div>
+				<div class="menu-right">
+					<ul>
+						<li><a href="#">Tours</a></li>
+						<li><a href="#">Houses</a></li>
+						<li><a href="#">Excursions</a></li>
+						<li><a href="#">Cars</a></li>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Support</a></li>
+						<li><a class="modal-link" href="#regout">Regout</a></li>
+					</ul> 
+					<div class="tour-constructor"><a href="#">Tour constructor <img src="img/tour-btn.png" alt="img"></a></div>
+					<div class="ing-btn"><a href="#">ing</a></div>
+					<div class="cart-wrap">
+						<div class="cart-top">
+							<div class="cart-item">
+								<div class="cart-img"><img src="img/cart-img.jpg" alt=""></div>
+								<div class="cart-info">
+									<b>Guest house</b>
+									<div class="cost">$<span>600</span></div>
+								</div>
+								<div class="cart-item__remove"><button><img src='img/cart-remove.jpg' alt="ico"></button></div>
+							</div>
+							<div class="cart-item">
+								<div class="cart-img"><img src="img/cart-img.jpg" alt=""></div>
+								<div class="cart-info">
+									<b>Chevrolet</b>
+									<p>Camaro ss 1969</p>
+									<div class="cost">$<span>1000</span></div>
+								</div>
+								<div class="cart-item__remove"><button><img src='img/cart-remove.jpg' alt="ico"></button></div>
+							</div>
+						</div>
+						<div class="cart-bot">
+							<div class="cart-cost-fin">$<span>1600</span></div>
+							<div class="boocking-btn boocking-btn--cart"><a href="#">To cart</a></div>
+						</div>
+					</div>
+					<div class="burger">
+						<button>
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="galery-avto">
+			<div class="container">
+				<ul class="tabs-list"> 
+					<li class="tabs-list__item "><a href="#" class="btn-active"><span class="tab-ico"><img src="img/tab-ico1.png" alt=""></span>Аренда жилья</a></li> 
+					<li class="tabs-list__item"><a href="#" ><span class="tab-ico"><img src="img/tab-ico2.png" alt=""></span>Экскурсии</a></li>
+					<li class="tabs-list__item tabs-list__item_active"><a href="#" ><span class="tab-ico"><img src="img/tab-ico3.png" alt=""></span>Аренда авто</a></li>
+				</ul> 
+				<div class="filters">
+					
+					<form>
+						<div class="tovar-inp-item date-inp" id="two-input">
+							<input type="text" value="Дата заезда" id="date1">
+							<span>
+								<svg xmlns="http://www.w3.org/2000/svg" width="22" height="7" viewBox="0 0 22 7">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #a9a9a9;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="arow-date.svg" class="cls-1" d="M615.009,225.885H631.3A5.206,5.206,0,0,1,630.081,223c1.785,1.742,4.105,2.65,6.91,3.5a16.971,16.971,0,0,0-6.91,3.5,6.032,6.032,0,0,1,1.24-2.971H615.009v-1.148Z" transform="translate(-615 -223)"/>
+								</svg>
+
+							</span>
+							<input type="text" value="Дата выезда" id="date2">
+						</div>
+						<div class="tovar-inp-item place-inp">
+							<label class="selectGeneral" placeholder="Ценовая категория"> 
+								<input type="radio" name="cost-range">
+								<div>
+									<input 
+									type="radio"
+									name="cost-range"
+									value="low"
+									id="low"
+									>
+									<label for="low">Low</label> 
+
+									<input
+									type="radio"
+									name="cost-range"
+									value="medium"
+									id="medium"
+									>
+									<label for="medium">Medium</label>
+
+									<input
+									type="radio"
+									name="cost-range"
+									value="High"
+									id="High"
+									>
+									<label for="High">High</label>
+								</div>
+							</label>
+							<div class="inp-arow"><img src="img/input-arow.png" alt=""></div>
+						</div>
+						<div class="tovar-inp-item place-inp">
+							<label class="selectGeneral" placeholder="Куда доставить авто"> 
+								<input type="radio" name="Коробка передач">
+								<div>
+									<input 
+									type="radio"
+									name="Коробка передач"
+									value="Manual"
+									id="Manual"
+									>
+									<label for="Manual">Manual</label> 
+
+									<input
+									type="radio"
+									name="Коробка передач"
+									value="Automatic"
+									id="Automatic"
+									>
+									<label for="Automatic">Automatic</label>
+								</div>
+							</label>
+							<div class="inp-arow"><img src="img/input-arow.png" alt=""></div>
+						</div>
+						<div class="select-item ">
+							<div class="button-search"><button>Искать</button></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="search-result">
+				<div class="container">
+					<div class="wrap-result">
+						
+						<div class="result-item">
+							<div class="tovar-slider">
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+							</div>
+							<div class="result-item__info">
+							<a href="#"><p>40$ Chevrolet</p></a>
+
+								<div class="deal-star">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19">
+										<defs>
+											<style>
+												.cls-1 {
+													fill: #fcde51;
+													fill-rule: evenodd;
+												}
+											</style>
+										</defs>
+										<path id="star.svg" class="cls-1" d="M668,2497l3.3,5.97,6.7,1.29-4.666,4.97,0.847,6.77-6.18-2.9-6.18,2.9,0.847-6.77L658,2504.26l6.7-1.29L668,2497" transform="translate(-658 -2497)"/>
+									</svg>
+
+									<span>5</span>
+								</div>
+								<div class="add-cart"><button><img src="img/add-cart.png" alt="btn"></button></div>
+							</div>
+						</div>
+						<div class="result-item">
+							<div class="tovar-slider">
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+							</div>
+							<div class="result-item__info">
+							<a href="#"><p>40$ Chevrolet</p></a>
+
+								<div class="deal-star">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19">
+										<defs>
+											<style>
+												.cls-1 {
+													fill: #fcde51;
+													fill-rule: evenodd;
+												}
+											</style>
+										</defs>
+										<path id="star.svg" class="cls-1" d="M668,2497l3.3,5.97,6.7,1.29-4.666,4.97,0.847,6.77-6.18-2.9-6.18,2.9,0.847-6.77L658,2504.26l6.7-1.29L668,2497" transform="translate(-658 -2497)"/>
+									</svg>
+
+									<span>5</span>
+								</div>
+								<div class="add-cart"><button><img src="img/add-cart.png" alt="btn"></button></div>
+							</div>
+						</div>
+						<div class="result-item">
+							<div class="tovar-slider">
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+							</div>
+							<div class="result-item__info">
+							<a href="#"><p>40$ Chevrolet</p></a>
+
+								<div class="deal-star">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19">
+										<defs>
+											<style>
+												.cls-1 {
+													fill: #fcde51;
+													fill-rule: evenodd;
+												}
+											</style>
+										</defs>
+										<path id="star.svg" class="cls-1" d="M668,2497l3.3,5.97,6.7,1.29-4.666,4.97,0.847,6.77-6.18-2.9-6.18,2.9,0.847-6.77L658,2504.26l6.7-1.29L668,2497" transform="translate(-658 -2497)"/>
+									</svg>
+
+									<span>5</span>
+								</div>
+								<div class="add-cart"><button><img src="img/add-cart.png" alt="btn"></button></div>
+							</div>
+						</div>
+						<div class="result-item">
+							<div class="tovar-slider">
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+							</div>
+							<div class="result-item__info">
+							<a href="#"><p>40$ Chevrolet</p></a>
+
+								<div class="deal-star">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19">
+										<defs>
+											<style>
+												.cls-1 {
+													fill: #fcde51;
+													fill-rule: evenodd;
+												}
+											</style>
+										</defs>
+										<path id="star.svg" class="cls-1" d="M668,2497l3.3,5.97,6.7,1.29-4.666,4.97,0.847,6.77-6.18-2.9-6.18,2.9,0.847-6.77L658,2504.26l6.7-1.29L668,2497" transform="translate(-658 -2497)"/>
+									</svg>
+
+									<span>5</span>
+								</div>
+								<div class="add-cart"><button><img src="img/add-cart.png" alt="btn"></button></div>
+							</div>
+						</div>
+						<div class="result-item">
+							<div class="tovar-slider">
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+							</div>
+							<div class="result-item__info">
+							<a href="#"><p>40$ Chevrolet</p></a>
+
+								<div class="deal-star">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19">
+										<defs>
+											<style>
+												.cls-1 {
+													fill: #fcde51;
+													fill-rule: evenodd;
+												}
+											</style>
+										</defs>
+										<path id="star.svg" class="cls-1" d="M668,2497l3.3,5.97,6.7,1.29-4.666,4.97,0.847,6.77-6.18-2.9-6.18,2.9,0.847-6.77L658,2504.26l6.7-1.29L668,2497" transform="translate(-658 -2497)"/>
+									</svg>
+
+									<span>5</span>
+								</div>
+								<div class="add-cart"><button><img src="img/add-cart.png" alt="btn"></button></div>
+							</div>
+						</div>
+						<div class="result-item">
+							<div class="tovar-slider">
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+							</div>
+							<div class="result-item__info">
+							<a href="#"><p>40$ Chevrolet</p></a>
+
+								<div class="deal-star">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19">
+										<defs>
+											<style>
+												.cls-1 {
+													fill: #fcde51;
+													fill-rule: evenodd;
+												}
+											</style>
+										</defs>
+										<path id="star.svg" class="cls-1" d="M668,2497l3.3,5.97,6.7,1.29-4.666,4.97,0.847,6.77-6.18-2.9-6.18,2.9,0.847-6.77L658,2504.26l6.7-1.29L668,2497" transform="translate(-658 -2497)"/>
+									</svg>
+
+									<span>5</span>
+								</div>
+								<div class="add-cart"><button><img src="img/add-cart.png" alt="btn"></button></div>
+							</div>
+						</div>
+						<div class="result-item">
+							<div class="tovar-slider">
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+							</div>
+							<div class="result-item__info">
+							<a href="#"><p>40$ Chevrolet</p></a>
+
+								<div class="deal-star">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19">
+										<defs>
+											<style>
+												.cls-1 {
+													fill: #fcde51;
+													fill-rule: evenodd;
+												}
+											</style>
+										</defs>
+										<path id="star.svg" class="cls-1" d="M668,2497l3.3,5.97,6.7,1.29-4.666,4.97,0.847,6.77-6.18-2.9-6.18,2.9,0.847-6.77L658,2504.26l6.7-1.29L668,2497" transform="translate(-658 -2497)"/>
+									</svg>
+
+									<span>5</span>
+								</div>
+								<div class="add-cart"><button><img src="img/add-cart.png" alt="btn"></button></div>
+							</div>
+						</div>
+						<div class="result-item">
+							<div class="tovar-slider">
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+							</div>
+							<div class="result-item__info">
+							<a href="#"><p>40$ Chevrolet</p></a>
+
+								<div class="deal-star">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19">
+										<defs>
+											<style>
+												.cls-1 {
+													fill: #fcde51;
+													fill-rule: evenodd;
+												}
+											</style>
+										</defs>
+										<path id="star.svg" class="cls-1" d="M668,2497l3.3,5.97,6.7,1.29-4.666,4.97,0.847,6.77-6.18-2.9-6.18,2.9,0.847-6.77L658,2504.26l6.7-1.29L668,2497" transform="translate(-658 -2497)"/>
+									</svg>
+
+									<span>5</span>
+								</div>
+								<div class="add-cart"><button><img src="img/add-cart.png" alt="btn"></button></div>
+							</div>
+						</div>
+						<div class="result-item">
+							<div class="tovar-slider">
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+							</div>
+							<div class="result-item__info">
+							<a href="#"><p>40$ Chevrolet</p></a>
+
+								<div class="deal-star">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19">
+										<defs>
+											<style>
+												.cls-1 {
+													fill: #fcde51;
+													fill-rule: evenodd;
+												}
+											</style>
+										</defs>
+										<path id="star.svg" class="cls-1" d="M668,2497l3.3,5.97,6.7,1.29-4.666,4.97,0.847,6.77-6.18-2.9-6.18,2.9,0.847-6.77L658,2504.26l6.7-1.29L668,2497" transform="translate(-658 -2497)"/>
+									</svg>
+
+									<span>5</span>
+								</div>
+								<div class="add-cart"><button><img src="img/add-cart.png" alt="btn"></button></div>
+							</div>
+						</div>
+						<div class="result-item">
+							<div class="tovar-slider">
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+								<div class="slider-item"><img src="img/item-img.png" alt="img"></div>
+							</div>
+							<div class="result-item__info">
+							<a href="#"><p>40$ Chevrolet</p></a>
+
+								<div class="deal-star">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19">
+										<defs>
+											<style>
+												.cls-1 {
+													fill: #fcde51;
+													fill-rule: evenodd;
+												}
+											</style>
+										</defs>
+										<path id="star.svg" class="cls-1" d="M668,2497l3.3,5.97,6.7,1.29-4.666,4.97,0.847,6.77-6.18-2.9-6.18,2.9,0.847-6.77L658,2504.26l6.7-1.29L668,2497" transform="translate(-658 -2497)"/>
+									</svg>
+
+									<span>5</span>
+								</div>
+								<div class="add-cart"><button><img src="img/add-cart.png" alt="btn"></button></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer-about">
+			<div class="container">
+				<div class="footer-wrap">
+					<div class="footer-item">
+						<b><a href="#">Нужна помощь?</a></b>
+					</div>
+					<div class="footer-item">
+						<b><a href="#">О НАС</a></b>
+					</div>
+					<div class="footer-item">
+						<b><a href="#">ИНФОРМАЦИЯ</a></b>
+					</div>
+					<div class="up-btn"><a href="#"><img src="img/up-btn.png" alt="ico"></a></div>
+				</div>
+			</div>
+		</footer>
+		<div class="hidden">
+			<div id="regout" class="modal modal--reg">
+				<div class="modal-item">
+					<h4>login</h4>
+					<form>
+						<div class="table-wrap">
+							<div class="table-cell">
+								<input type="text" placeholder="Login">
+								<input type="text" placeholder="Password">
+								<a href="#" class="forgot-pass">Forgot your password?</a>
+							</div>
+						</div>
+						<button>Login</button>
+					</form>
+				</div>
+				<div class="modal-item">
+					<h4>registration</h4>
+					<form>
+						<div class="table-wrap">
+							<div class="table-cell">
+								<input type="text" placeholder="Name">
+								<input type="text" placeholder="Mail">
+								<span class="email-error">This email already exists</span>
+								<input type="text" placeholder="Password">
+							</div>
+						</div>
+						<button>Registration</button>
+					</form>
+				</div>
+			</div>
+			<div id="out" class="modal modal--reg modal--out">
+				<div class="modal-item">
+					<h4>login</h4>
+					<form>
+						<div class="table-wrap">
+							<div class="table-cell">
+								<input type="text" placeholder="Login">
+								<input type="text" placeholder="Password">
+								<a href="#" class="forgot-pass">Forgot your password?</a>
+							</div>
+						</div>
+						<button>Login</button>
+					</form>
+				</div>
+			</div>
+			<div id="thx" class="modal modal--thx">
+				<div class="thx-img">
+					<img src="img/thx-img.png" alt="">
+				</div>
+				<h3>Thank you!</h3>
+				<p>Expect confirmation e-mail you our manager</p>
+				<div class="boocking-btn"><a href="#">Back in gallery</a></div>
+			</div>
+			<div id="ops" class="modal modal--thx">
+				<div class="thx-img">
+					<img src="img/ops-img.png" alt="">
+				</div>
+				<h3>oops...</h3>
+				<p>To book you need to register.</p>
+				<div class="boocking-btn"><a href="#">Registration</a></div>
+			</div>
+		</div>
+		<script src="js/plugin.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+	</html>

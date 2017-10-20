@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Evgenia</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/plugin.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+	<header class="wow fadeIn blog-header" data-wow-duration="1s" data-wow-delay="0s" >
+		<div class="menu">
+			<div class="container">
+				<div class="logo"><img src="img/logo-black.png" alt="logo"></div>
+				<div class="menu-right">
+					<ul>
+						<li><a href="#">Tours</a></li>
+						<li><a href="#">Houses</a></li>
+						<li><a href="#">Excursions</a></li>
+						<li><a href="#">Cars</a></li>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Support</a></li>
+						<li><a class="modal-link" href="#regout">Regout</a></li>
+					</ul> 
+					<div class="tour-constructor"><a href="#">Tour constructor <img src="img/tour-btn.png" alt="img"></a></div>
+					<div class="ing-btn"><a href="#">ing</a></div>
+					<div class="cart-wrap">
+						<div class="cart-top">
+							<div class="cart-item">
+								<div class="cart-img"><img src="img/cart-img.jpg" alt=""></div>
+								<div class="cart-info">
+									<b>Guest house</b>
+									<div class="cost">$<span>600</span></div>
+								</div>
+								<div class="cart-item__remove"><button><img src='img/cart-remove.jpg' alt="ico"></button></div>
+							</div>
+							<div class="cart-item">
+								<div class="cart-img"><img src="img/cart-img.jpg" alt=""></div>
+								<div class="cart-info">
+									<b>Chevrolet</b>
+									<p>Camaro ss 1969</p>
+									<div class="cost">$<span>1000</span></div>
+								</div>
+								<div class="cart-item__remove"><button><img src='img/cart-remove.jpg' alt="ico"></button></div>
+							</div>
+						</div>
+						<div class="cart-bot">
+							<div class="cart-cost-fin">$<span>1600</span></div>
+							<div class="boocking-btn boocking-btn--cart"><a href="#">To cart</a></div>
+						</div>
+					</div>
+					<div class="burger">
+						<button>
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="back-to-galery">
+			<div class="container">
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" width="23" height="7" viewBox="0 0 23 7">
+						<path id="back-arow.svg" class="cls-1" d="M332.99,168.115H315.963a5.086,5.086,0,0,1,1.27,2.889c-1.866-1.743-4.292-2.65-7.223-3.5a18.054,18.054,0,0,0,7.223-3.5,5.888,5.888,0,0,1-1.3,2.971H332.99v1.148Z" transform="translate(-310 -164)"/>
+					</svg>
+					<span>Car gallery</span>
+				</a>
+			</div>
+		</div>
+		<section class="car-page">
+			<div class="container">
+				<div class="car-item">
+					<div class="row">
+						<div class="row__col-lg-6">
+							<div class="car-img">
+								<div class="tovar-slider">
+									<div class="tovar-slider__item">
+										<a class="galery-link" data-fancybox-group="gallery" href="img/car-img.jpg"><img src="img/car-img.jpg" alt="car"></a>
+									</div>
+									<div class="tovar-slider__item">
+										<a class="galery-link" data-fancybox-group="gallery" href="img/car-img.jpg"><img src="img/car-img.jpg" alt="car"></a>
+									</div>
+									<div class="tovar-slider__item">
+										<a class="galery-link" data-fancybox-group="gallery" href="img/car-img.jpg"><img src="img/car-img.jpg" alt="car"></a>
+									</div>
+									<div class="tovar-slider__item">
+										<a class="galery-link" data-fancybox-group="gallery" href="img/car-img.jpg"><img src="img/car-img.jpg" alt="car"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row__col-lg-6">
+							<div class="car-info">
+								<div class="tovar-top-line">
+									<div class="tovar-cost"><b>700$</b><span>100$/1 day</span></div>
+									<div class="tovar-name">Chevrolet Camaro ss 1969</div>
+									<div class="tovar-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</div>
+								</div>
+								<div class="tovar-mid-line">
+									<div class="btn btn-add"><a href="#">Add to constructor</a></div>
+									<!-- begin stars  -->
+									<div class="stars"> 
+										<div class="stars__star active"></div> 
+										<div class="stars__star active"></div> 
+										<div class="stars__star active"></div> 
+										<div class="stars__star active"></div> 
+										<div class="stars__star"></div> 
+									</div>
+									<!-- end stars -->
+								</div>
+								<div class="tovar-bot-line">
+									<form>
+										<div class="tovar-inp-item date-inp">
+											<input type="text" value="Даты" id="date">
+											<div class="calendar-wrap"></div>
+											<div class="inp-arow"><img src="img/input-arow.png" alt=""></div>
+										</div>
+										<div class="tovar-inp-item place-inp">
+											<label class="selectGeneral" placeholder="Куда доставить авто"> 
+												<input type="radio" name="OS">
+												<div>
+													<input 
+													type="radio"
+													name="OS"
+													value="home"
+													id="home"
+													>
+													<label for="home">К дому</label> 
+
+													<input
+													type="radio"
+													name="OS"
+													value="airport"
+													id="airport"
+													>
+													<label for="airport">Аэропорт</label>
+
+													<input
+													type="radio"
+													name="OS"
+													value="port"
+													id="port"
+													>
+													<label for="port">Порт</label>
+												</div>
+											</label>
+											<div class="inp-arow"><img src="img/input-arow.png" alt=""></div>
+										</div>
+										<div class="tovar-inp-item driver-inp">
+											<input type="checkbox" class="checkbox" id="drive">
+											<label for="drive">Личный водитель</label>
+										</div>
+									</form>
+								</div>
+								<div class="tovar-tabs">
+									<ul class="tabs-list"> 
+										<li class="tabs-list__item tabs-list__item_active"><button type="button" data-content="content1" class="btn-active">Описание </button></li> 
+										<li class="tabs-list__item"><button type="button" data-content="content2">Отзывы <span>55</span></button></li>
+									</ul> 
+
+									<div class="tabs__content tabs__content_active" id="content1">
+										<div class="about-tovar">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											<div class="tovar-adv">
+												<div class="adv-item">
+													<div class="adv-img"><img src="img/tovar-ico.png" alt="img"></div>
+													<b>Premium</b>
+												</div>
+												<div class="adv-item">
+													<div class="adv-img"><img src="img/tovar-ico1.png" alt="img"></div>
+													<b>Manual <br>transmission</b>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs__content" id="content2">
+										<div class="tovar-reviews">
+											<div class="reviews-body">
+												<div class="review-item">
+													<div class="review-item__fio"><span>ep</span></div>
+													<div class="review-item__text">
+														<b>Ethan Powell</b>
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+													</div>
+												</div>
+												<div class="review-item">
+													<div class="review-item__fio"><span>ep</span></div>
+													<div class="review-item__text">
+														<b>Ethan Powell</b>
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+													</div>
+												</div>
+												<div class="review-item">
+													<div class="review-item__fio"><span>ep</span></div>
+													<div class="review-item__text">
+														<b>Ethan Powell</b>
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+													</div>
+												</div>
+											</div>
+											<div class="reviews-wright">
+												<div class="review-wright__fio"><span>ep</span></div>
+												<div class="review-wright__form">
+													<form>
+														<textarea placeholder="Wright review"></textarea>
+														<button><img src="img/wright-btn.png" alt=""></button>
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+<footer class="footer-about">
+	<div class="container">
+		<div class="footer-wrap">
+			<div class="footer-item">
+				<b><a href="#">Нужна помощь?</a></b>
+			</div>
+			<div class="footer-item">
+				<b><a href="#">О НАС</a></b>
+			</div>
+			<div class="footer-item">
+				<b><a href="#">ИНФОРМАЦИЯ</a></b>
+			</div>
+			<div class="up-btn"><a href="#"><img src="img/up-btn.png" alt="ico"></a></div>
+		</div>
+	</div>
+</footer>
+	<div class="hidden">
+		<div id="regout" class="modal modal--reg">
+			<div class="modal-item">
+				<h4>login</h4>
+				<form>
+					<div class="table-wrap">
+						<div class="table-cell">
+							<input type="text" placeholder="Login">
+							<input type="text" placeholder="Password">
+							<a href="#" class="forgot-pass">Forgot your password?</a>
+						</div>
+					</div>
+					<button>Login</button>
+				</form>
+			</div>
+			<div class="modal-item">
+				<h4>registration</h4>
+				<form>
+					<div class="table-wrap">
+						<div class="table-cell">
+							<input type="text" placeholder="Name">
+							<input type="text" placeholder="Mail">
+							<span class="email-error">This email already exists</span>
+							<input type="text" placeholder="Password">
+						</div>
+					</div>
+					<button>Registration</button>
+				</form>
+			</div>
+		</div>
+		<div id="out" class="modal modal--reg modal--out">
+			<div class="modal-item">
+				<h4>login</h4>
+				<form>
+					<div class="table-wrap">
+						<div class="table-cell">
+							<input type="text" placeholder="Login">
+							<input type="text" placeholder="Password">
+							<a href="#" class="forgot-pass">Forgot your password?</a>
+						</div>
+					</div>
+					<button>Login</button>
+				</form>
+			</div>
+		</div>
+	</div>
+<script src="js/plugin.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
