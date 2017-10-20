@@ -1,0 +1,319 @@
+<!doctype html> 
+<html> 
+<head> 
+	<meta charset="utf-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<title>REM</title> 
+	<meta name="description" content=""> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="assets/css/grid.css"> 
+	<link rel="stylesheet" href="assets/css/global.css"> 
+	<link rel="stylesheet" href="assets/css/slick-theme.css">
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<link rel="stylesheet" href="assets/css/jquery.fancybox.css">
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/ion.rangeSlider.css">
+	<link rel="stylesheet" href="assets/css/ion.rangeSlider.skinNice.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/media.css">
+</head> 
+<body> 
+	<header>
+		<div class="container">
+			<div class="wrap-head">
+				<div class="logo">
+					<a href="#">
+						<img src="assets/img/logo.png" alt="logo">
+					</a>
+				</div>
+				<div class="descrition-head"><span>Производство </span>автоматизированных проходных, турникетов, калиток, картоприемников <br>и ограждений серии «Ростов-Дон»</div>
+				<div class="right-header-column">
+					<div class="log-in">
+						<a href="#">Вход для дилеров</a>
+					</div>
+					<div class="search">
+						<input type="text" placeholder="Поиск">
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<nav>
+		<div class="container">
+			<div class="burger">
+				<button>
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+			<ul class="menu-main">
+				<li class="active">
+					<a href="type-production.html">продукция</a>
+				</li>
+				<li class="noarow">
+					<a href="news.html">новости</a>
+				</li>
+				<li>
+					<a href="about-company.html">о компании</a>
+				</li>
+				<li>
+					<a href="#">Медиа-материалы</a>
+					<ul class="drop-down">
+						<li><a href="#">Планировочные решения</a></li>
+						<li><a href="#">Фотогалерея</a></li>
+						<li><a href="#">Видеогалерея</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">поддержка</a>
+				</li>
+				<li class="noarow">
+					<a href="contacts.html">контакты</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<main>
+		<div class="container">
+			<div class="content-filter">
+				<div class="filter-bar">
+					<h3>Подбор по параметрам</h3>
+					<div class="form-filter">
+						<form>
+							<div class="filter-item">
+								<input type="radio" name="filter" id="prise" class="radio" value="prise"><label for="prise">Выбор по цене</label>
+							</div>
+							<div class="filter-item filter-item--active">
+								<input type="radio" checked name="filter" class="radio" id="characteristic" value="characteristic"><label for="characteristic">Выбор по техн. параметрам</label>
+							</div>
+							<div class="prise-filter  filter-wraper">
+								<h4>Цена, ₽</h4>
+								<input type="text" class="range">
+								<b>от</b>
+								<input type="text" id="minCost" value="624500"/>
+								<b>до</b>
+								<input type="text" id="maxCost" value="690000"/>
+							</div>
+							<div class="characteristic-filter filter-wraper--active filter-wraper">
+								<div class="char-item">
+									<h4>Количество лопастей</h4>
+									<input type="checkbox" id="lop3" checked="checked" class="checkbox">
+									<label for="lop3">3</label><br>
+									<input type="checkbox" id="lop4" checked="checked" class="checkbox">
+									<label for="lop4">4</label>
+									<div class="danger">Должен быть выбран минимум один параметр</div>
+								</div>
+								<div class="char-item">
+									<h4>Тип ограждения</h4>
+									<input type="checkbox" id="ograd-t" checked class="checkbox">
+									<label for="ograd-t">Ограждения из труб</label><br>
+									<input type="checkbox" id="ograd-s" checked="checked" class="checkbox">
+									<label for="ograd-s">Ограждения из стекла</label>
+									<div class="danger">Должен быть выбран минимум один параметр</div>
+								</div>
+								<div class="char-item">
+									<h4>Корпус турникета</h4>
+									<input type="checkbox" id="korp-n" checked class="checkbox">
+									<label for="korp-n">Нержавеющая сталь</label><br>
+									<input type="checkbox" id="korp-s" checked="checked" class="checkbox">
+									<label for="korp-s">Крашеная сталь</label><br>
+									<input type="checkbox" id="korp-a" checked="checked" class="checkbox">
+									<label for="korp-a">Алюминий</label>
+									<div class="danger">Должен быть выбран минимум один параметр</div>
+								</div>
+								<div class="char-item">
+									<h4>Условия эксплуатации</h4>
+									<input type="checkbox" id="t1" checked class="checkbox">
+									<label for="t1">Для помещений, +1...+40 0С</label><br>
+									<input type="checkbox" id="t30" checked="checked" class="checkbox">
+									<label for="t30">Для помещений, -30...+40 0С</label>
+									<div class="danger">Должен быть выбран минимум один параметр</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>				
+				<div class="result-content">
+					<div class="bread-crumbs">
+						<a href="#">Главная</a>
+						<a href="#">Продукция</a>
+						<a href="#">Турникеты роторные </a>
+					</div>
+					<h3>Турникеты полноростовые двухпроходные</h3>
+					<div class="result-item">
+						<img src="assets/img/result-img.jpg" alt="img">
+						<div class="models-wrap">
+							<div class="model-item">
+								<div class="left-result">
+									<h4><a href="#">ПР2/3М</a></h4>
+									<button class="description"><img src="assets/img/desc-ico1.svg" alt="descript"><img src="assets/img/desc-open.svg" alt="description"> <i> описание</i></button>
+									<div class="desc-window">
+										<div class="close-btn">
+											<button><img src="assets/img/close-btn.png" alt="close"></button>
+										</div>
+										<div class="desc-title">Турникет:</div>
+										<ul>
+											<li>Полноростовой</li>
+											<li>Двухпроходной</li>
+											<li>3-х лопастной 1200</li>
+											<li>Корпус турникета - крашеная сталь</li>
+											<li>Уличного исполнения</li>
+											<li>С ограждением из труб</li>
+										</ul>
+									</div>
+								</div>
+								<span>624 250 ₽</span>
+							</div>
+							<div class="model-item">
+								<div class="left-result">
+									<h4><a href="#">ПР2/3М У</a></h4>
+									<button class="description"><img src="assets/img/desc-ico1.svg" alt="descript"><img src="assets/img/desc-open.svg" alt="description"> <i> описание</i></button>
+									<div class="desc-window">
+										<div class="close-btn">
+											<button><img src="assets/img/close-btn.png" alt="close"></button>
+										</div>
+										<div class="desc-title">Турникет:</div>
+										<ul>
+											<li>Полноростовой</li>
+											<li>Двухпроходной</li>
+											<li>3-х лопастной 1200</li>
+											<li>Корпус турникета - крашеная сталь</li>
+											<li>Уличного исполнения</li>
+											<li>С ограждением из труб</li>
+										</ul>
+									</div>
+								</div>
+								<span>650 000 ₽</span>
+							</div>
+						</div>
+					</div>
+					<div class="result-item">
+						<img src="assets/img/result-img1.jpg" alt="img">
+						<div class="models-wrap">
+							<div class="model-item">
+								<div class="left-result">
+									<h4><a href="#">ПР2/3М</a></h4>
+									<button class="description"><img src="assets/img/desc-ico1.svg" alt="descript"><img src="assets/img/desc-open.svg" alt="description"> <i> описание</i></button>
+									<div class="desc-window">
+										<div class="close-btn">
+											<button><img src="assets/img/close-btn.png" alt="close"></button>
+										</div>
+										<div class="desc-title">Турникет:</div>
+										<ul>
+											<li>Полноростовой</li>
+											<li>Двухпроходной</li>
+											<li>3-х лопастной 1200</li>
+											<li>Корпус турникета - крашеная сталь</li>
+											<li>Уличного исполнения</li>
+											<li>С ограждением из труб</li>
+										</ul>
+									</div>
+								</div>
+								<span>624 250 ₽</span>
+							</div>
+							<div class="model-item">
+								<div class="left-result">
+									<h4><a href="#">ПР2/3М У</a></h4>
+									<button class="description"><img src="assets/img/desc-ico1.svg" alt="descript"><img src="assets/img/desc-open.svg" alt="description"> <i> описание</i></button>
+									<div class="desc-window">
+										<div class="close-btn">
+											<button><img src="assets/img/close-btn.png" alt="close"></button>
+										</div>
+										<div class="desc-title">Турникет:</div>
+										<ul>
+											<li>Полноростовой</li>
+											<li>Двухпроходной</li>
+											<li>3-х лопастной 1200</li>
+											<li>Корпус турникета - крашеная сталь</li>
+											<li>Уличного исполнения</li>
+											<li>С ограждением из труб</li>
+										</ul>
+									</div>
+								</div>
+								<span>650 000 ₽</span>
+							</div>
+						</div>
+					</div>
+					<div class="result-item">
+						<img src="assets/img/result-img2.jpg" alt="img">
+						<div class="models-wrap single-item">
+							<div class="model-item  ">
+								<div class="left-result">
+									<h4><a href="#">ПР2С-3М НЕРЖ</a></h4>
+									<button class="description"><img src="assets/img/desc-ico1.svg" alt="descript"><img src="assets/img/desc-open.svg" alt="description"> <i> описание</i></button>
+									<div class="desc-window">
+										<div class="close-btn">
+											<button><img src="assets/img/close-btn.png" alt="close"></button>
+										</div>
+										<div class="desc-title">Турникет:</div>
+										<ul>
+											<li>Полноростовой</li>
+											<li>Двухпроходной</li>
+											<li>3-х лопастной 1200</li>
+											<li>Корпус турникета - крашеная сталь</li>
+											<li>Уличного исполнения</li>
+											<li>С ограждением из труб</li>
+										</ul>
+									</div>
+								</div>
+								<span>624 250 ₽</span>
+							</div>
+						</div>
+					</div>
+					<div class="result-item">
+						<img src="assets/img/result-img3.jpg" alt="img">
+						<div class="models-wrap single-item">
+							<div class="model-item ">
+								<div class="left-result">
+									<h4><a href="#">ПР2-3М НЕРЖ</a></h4>
+									<button class="description"><img src="assets/img/desc-ico1.svg" alt="descript"><img src="assets/img/desc-open.svg" alt="description"> <i> описание</i></button>
+									<div class="desc-window">
+										<div class="close-btn">
+											<button><img src="assets/img/close-btn.png" alt="close"></button>
+										</div>
+										<div class="desc-title">Турникет:</div>
+										<ul>
+											<li>Полноростовой</li>
+											<li>Двухпроходной</li>
+											<li>3-х лопастной 1200</li>
+											<li>Корпус турникета - крашеная сталь</li>
+											<li>Уличного исполнения</li>
+											<li>С ограждением из труб</li>
+										</ul>
+									</div>
+								</div>
+								<span>624 250 ₽</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="wrap-bot">
+				<div class="year">© 2010-2016</div>
+				<div class="contact-wrap">
+					<p>Адрес
+						<span>344111, г. Ростов-на-Дону, пр.40-летия Победы, 306 А</span>
+					</p>
+				</div>
+				<div class="contact-wrap">
+					<p>Телефон/факс
+						<span>+7 (863) 206–16–86 (многоканальный)</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="assets/js/jquery-3.1.1.min.js"></script> 
+	<script src="assets/js/slick.min.js"></script> 
+	<script src="assets/js/jquery.maskedinput.min.js"></script> 
+	<script src="assets/js/ion.rangeSlider.min.js"></script> 
+	<script src="assets/js/jquery.fancybox.pack.js"></script> 
+	<script src="assets/js/main.js"></script> 
+</body> 
+</html>

@@ -1,0 +1,377 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+img
+	max-width: 100%
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+	color: #fff
+	background-color: #fff
+	opacity: 1
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+.container
+	max-width: 1170px 
+main
+	background: linear-gradient(135deg, #21273f, #ce3f8f);
+	padding-bottom: 40px
+.header
+	padding: 40px 0
+	&__logo
+		display: inline-block
+		p
+			margin: auto
+			font-size: 12px
+			opacity: .5
+			font-weight: 100
+	&__right
+		float: right
+	&__phone
+		display: inline-block
+		vertical-align: middle
+		a
+			display: block
+			font-size: 20px
+			color: #fff
+			font-weight: 900
+			&.call-back
+				font-weight: 100
+				opacity: .5
+				font-size: 12px
+	&__kab
+		display: inline-block
+		vertical-align: middle
+		margin-left: 45px
+		button
+			background-color: transparent
+			background-image: url(../img/btn-bg-st.png)
+			border: none
+			width: 175px
+			height: 50px
+			background-repeat: no-repeat
+			transition: all 300ms;
+			&:hover
+				background-image: url(../img/btn-kab-hov.png)				
+			img
+				margin-right: 10px
+	&__menu
+		display: none
+	&__burger
+		display: none
+.content
+	&__title
+		text-align: center
+		margin: 20px 0
+		h1
+			font-weight: 900
+			margin: auto
+			line-height: 21px
+			font-size: 36px
+		p
+			font-weight: 100
+			font-size: 30px
+			margin: auto
+			span
+				opacity: .5
+				display: block
+				font-size: 20px
+	&__sim
+		p
+			margin: 10px
+			font-weight: 100
+			font-size: 16px
+	&__img
+		padding: 0 100px
+		text-align: center
+		
+.sim-item
+	margin-bottom: 15px
+	font-size: 0
+	&__info
+		display: inline-block
+		color: #21273f
+		height: 62px
+		vertical-align: middle
+		background-color: #FFF
+		width: 52%
+		padding: 10px 15px
+		border-top-left-radius: 5px		
+		border-bottom-left-radius: 5px
+		span
+			display: inline-block
+			vertical-align: middle
+			background-image: -moz-linear-gradient( 90deg, rgb(253,183,71) 0%, rgb(247,108,103) 100%);
+			background-image: -webkit-linear-gradient( 90deg, rgb(253,183,71) 0%, rgb(247,108,103) 100%);
+			background-image: -ms-linear-gradient( 90deg, rgb(253,183,71) 0%, rgb(247,108,103) 100%)
+			width: 8px
+			height: 8px
+			margin-top: 10px
+			margin-right: 10px
+		p
+			margin: auto
+			display: inline-block
+			vertical-align: top
+			font-weight: 100
+			font-size: 14px
+			line-height: 23px
+			b
+				font-weight: 700
+				font-size: 16px
+	&__btn
+		display: inline-block
+		width: 46%
+		background-color: transparent
+		vertical-align: middle
+		button
+			height: 62px
+			background-repeat: no-repeat
+			border: none
+			font-size: 16px
+			outline: none
+			background-color: transparent
+			font-weight: 700
+			border-top-right-radius: 5px		
+			border-bottom-right-radius: 5px
+			background-size: cover
+			width: 216px
+			background: linear-gradient(to top, #fdb648, #f76e66)
+			&:hover
+				-webkit-box-shadow: 0px 4px 31px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: 0px 4px 31px 0px rgba(0,0,0,0.75);
+				box-shadow: 0px 4px 31px 0px rgba(0,0,0,0.75);
+			img
+				margin-left: 15px
+.sim-item--2 .sim-item__btn button
+	background: linear-gradient(to top, #2cd5c6, #2c78f4)
+.sim-item--3 .sim-item__btn button
+	background: linear-gradient(to top, #feaa9f, #f2537b)
+.sim-item--2 .sim-item__info span
+  background-image: -moz-linear-gradient( 90deg, rgb(44,215,197) 0%, rgb(44,119,244) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(44,215,197) 0%, rgb(44,119,244) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(44,215,197) 0%, rgb(44,119,244) 100%);
+.sim-item--3 .sim-item__info span
+  background-image: -moz-linear-gradient( 90deg, rgb(254,172,160) 0%, rgb(242,81,122) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(254,172,160) 0%, rgb(242,81,122) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(254,172,160) 0%, rgb(242,81,122) 100%)
+.adv-item
+	text-align: center
+	background-image: url(../img/bg-p.png)
+	width: 100%
+	margin-top: 40px
+	padding: 35px 0
+	p
+		margin: auto
+		line-height: 20px
+		font-size: 14px
+		font-weight: 100
+		opacity: .5
+	b
+		margin-bottom: 20px
+		font-size: 16px
+		font-weight: 500
+		img
+			margin-right: 15px
+footer
+	background: linear-gradient(to right, #21273f, #1d202d)
+	padding: 90px 0
+	p
+		font-weight: 300
+		font-size: 14px
+		opacity: .25
+		line-height: 20px
+	.doc
+		font-size: 14px
+		font-weight: 300
+		a
+			color: #fff
+			display: inline-block
+			position: relative
+			text-decoration: none
+			&:after
+					position: absolute
+					content: ""
+					width: 100%
+					bottom: 3px
+					left: 0
+					height: 1px
+					background-color: #fff
+			&:hover
+			  background: -webkit-linear-gradient( #f76c67, #fdb747)
+			  -webkit-background-clip: text
+			  -webkit-text-fill-color: transparent
+			  text-decoration: underline
+			&:hover:after
+				position: absolute
+				content: ""
+				width: 100%
+				bottom: 3px
+				left: 0
+				height: 1px
+				background-color: #fdb747
+	.soc
+		font-weight: 300
+		font-size: 14px
+		span
+			margin-right: 10px
+		a
+			margin: 0 5px
+			border-radius: 50%
+			display: inline-block
+			vertical-align: middle
+			overflow: hidden
+			&:hover
+				-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+				-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+				box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+.modal
+	background: linear-gradient(135deg, #4f2f55, #ce3f8f)
+	text-align: center
+	padding: 50px
+	height: 344px
+	width: 540px
+	border-radius: 5px
+	overflow: hidden
+	color: #fff
+	h4
+		margin-top: 0
+		font-size: 20px
+		margin-bottom: 10px
+		font-weight: 700
+	p
+		font-weight: 100
+		font-size: 14px
+		opacity: .5
+		margin-top: 0
+		margin-bottom: 40px
+	&__form
+		font-size: 0
+		input
+			background-color: #FFF
+			height: 62px
+			display: inline-block
+			vertical-align: middle
+			font-size: 16px
+			border: none			
+			width: 290px
+			padding: 10px 15px
+			border-top-left-radius: 5px		
+			border-bottom-left-radius: 5px
+		button
+			height: 62px
+			background-repeat: no-repeat
+			border: none
+			font-size: 16px
+			display: inline-block
+			vertical-align: middle
+			outline: none
+			background-color: transparent
+			font-weight: 700
+			border-top-right-radius: 5px		
+			border-bottom-right-radius: 5px
+			background-size: cover
+			width: 150px
+			background: linear-gradient(to top, #fdb648, #f76e66)
+			&:hover
+				-webkit-box-shadow: 0px 4px 31px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: 0px 4px 31px 0px rgba(0,0,0,0.75);
+				box-shadow: 0px 4px 31px 0px rgba(0,0,0,0.75);
+			img
+				margin-left: 15px
+	.desc
+		font-size: 10px
+		margin-top: 8px
+		font-weight: 100
+		span
+			opacity: .5
+			margin-left: 15px
+.fancybox-skin
+	border-radius: 5px
+	background-color: transparent
+.fancybox-close
+	background-image: url(../img/f-close.png)
+	width: 12px
+	height: 12px
+	right: 15px
+	top: 15px
+	opacity: .5
+	&:hover
+		opacity: 1
+.checkbox 
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 26px;
+  height: 25px;
+.checkbox + label 
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: inline-block;
+.checkbox:not(checked) 
+  position: absolute;
+  opacity: 0;
+
+.checkbox:not(checked) + label 
+  position: relative; 
+  padding: 0 0 0 40px;
+  font-size: 13px
+  &:hover
+  	&:before
+  		border: 2px solid #f77065
+
+.checkbox:not(checked) + label:before 
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0;
+  border: none
+  border-radius: 3px
+  background-color: #FFF
+  width: 16px;
+  height: 16px
+.checkbox:not(checked) + label:after 
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  transition: all .2s; 
+.checkbox:checked + label:after 
+  background: linear-gradient(to bottom, #f76c67, #fcb14a)		
+.check
+	margin-top: 30px
+.modal--2 .modal__form button
+  background: linear-gradient(to top,#2cd5c6,#2c78f4);
+.modal--3 .modal__form button
+  background: linear-gradient(to top,#feaa9f,#f2537b);
+@import "media" // Всегда в конце

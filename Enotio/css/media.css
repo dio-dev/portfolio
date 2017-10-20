@@ -1,0 +1,463 @@
+@media (max-width: 1200px) {
+	.begin-img{
+		padding-top: 100px;
+	}
+	.see-works{
+		margin-top: 20px;
+	}
+	.bot-form p{
+		font-size: 20px;
+	}
+	.begin-img img{
+		max-width: 80%;
+	}
+	.tz-btn--white{
+		margin-top: 15px;
+	}
+	.section--works, .stydio-wrap, .section--garanty{
+		padding-top: 100px;
+	}
+	.portfolio-content h2{
+		margin-top: 10px;
+	}
+	.portfolio{
+		height: 450px;
+	}
+	.section--stydio p{
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.contact-content{
+		width: 49%;
+	}
+	.cat:before{
+		display: none;
+	}
+	.cat{
+		display: none;
+	}
+	.cost-about{
+		margin-top: 10px;
+	}
+	.cost-item p{
+		padding-right: 0;
+	}
+	.cost-item {
+		padding-right: 15px;
+	}
+	.cost-item h4{
+		min-height: 48px;
+	}
+	.cost-left p:first-child{
+		display: none;
+	}
+	.portfolio-content{
+		position: absolute;
+		right: 0;
+		top: 50px;
+	}
+	.section--works .container{
+		padding-top: 50px;
+	}
+	.wrap-scroll{
+		height: 400px;
+	}
+	.portfolio-content img{
+		display: none;
+		
+	}
+}
+@media (max-width: 991px) {
+	
+	.section--cost .container, .section--works .container{
+		padding-top: 20px;
+	}
+	.portfolio-content{
+		position: absolute;
+		right: 0;
+		top: 0px;
+	}
+
+	.footer{
+		position: static;
+		
+	}
+	.menu ul li.active a{
+		padding: 5px;
+	}
+	.menu ul{
+		padding-left: 10px;
+	}
+	.portfolio-content h2{
+		font-size: 32px;
+	}
+	.section--stydio p{
+		font-size: 14px;
+	}
+	.garanty-item h4{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.garanty-item p{
+		line-height: 18px;
+		font-size: 14px;
+	}
+	.contact-content{
+		width: 40%;
+		padding-left: 10px;
+	}
+	.footer-centr p br{
+		display: none;
+	}
+	.cat{
+		float: none;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		text-align: center;
+		
+	}
+	.cost-item{
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	.cost-right h2{
+		font-size: 36px;
+	}
+	.cost-item p{
+		font-size: 14px;
+	}
+	.section--contact .container{
+		padding-top: 100px;
+	}
+	.footer .container{
+		padding-top: 0px;
+	}
+	.section--garanty .container, .section--contact .container{
+		padding-top: 10px;
+	}
+}
+@media (max-width: 767px) {
+	.footer, .footer-right{
+		text-align: center;
+	}
+	.wrap-form{
+		padding: 50px 40px;
+	}
+	.irs{
+		width: 180px;
+	}
+	.brif-head h1{
+		font-size: 32px;
+	}
+	.brif-head h1 span{
+		font-size: 16px;
+	}
+	.phone--brif a{
+		font-size: 14px;
+	}
+	.section--cost .container{
+		padding-top: 20px;
+	}
+}
+@media (max-width: 767px) {
+	.form-itm input{
+		width: 100%;
+	}
+	.form-itm{
+	}
+	.wrap-form{
+		padding: 25px 20px;
+	}
+	.from-io, .to-io{
+		font-size: 8px;
+		width: 70px;
+		text-align: left;
+	}
+	.to-io{
+		text-align: right;
+		
+	}
+	.irs{
+		width: 100px;
+	}
+	.io-item{
+		text-align: center;
+	}
+	.logo3{
+		display: none;
+	}
+	.menu ul li a{
+		padding: 5px;
+	}
+	.call-back-wrap{
+		padding-top: 10px;
+	}
+	.phone{
+		margin: 0 5px;
+		display: inline-block;
+	}
+	.portfolio{
+		height: auto;
+	}
+	.call-back{
+		margin: 0 10px;
+		display: inline-block;
+	}
+	.header{
+		padding: 10px 0 15px;
+		z-index: 999;
+		background-color: #f2f8f9;
+	}
+	.section--begin{
+		padding-bottom: 20px;
+	}
+	.section--begin h1{
+		font-size: 30px;
+	}
+	.section--works{
+		background-color: #1c1e1e;
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+	.section--stydio{
+		padding: 20px 0;
+	}
+	.stydio-wrap{
+		padding-top: 0;
+	}
+	.section--stydio p{
+	}
+	.section--contact{
+		background-color: #ffe400;
+	}
+	.section--garanty{
+		padding: 20px 0;
+	}
+	.garanty-item{
+		margin: auto;
+		margin-top: 50px;
+	}
+	.contact-img, .contact-content{
+		margin-top: 20px;
+	}
+	.footer{
+		margin-top: 20px;
+	}
+	.section--cost{
+		padding: 20px 0;
+	}
+	.cost-right, .cost-left{
+		width: 100%;
+		float: none;
+	}
+	.cost-left .cost, .cost-left p{
+		width: 100%;
+		max-width: none;
+	}
+/*	.fp-section,
+	.fp-slide,
+	.fp-tableCell,
+	.fp-scrollable, #fullpage .fp-section,
+	.fp-tableCell,
+	.fp-scrollable {
+		height: auto !important;
+		} 
+	.fp-scrollable {
+		height: auto !important;
+		}*/
+		/* Disable scrolling transform */
+/*	.fp-scrollable > .fp-scroller {
+		transform: none !important;
+		}*/
+		/* Hide scrollbars */
+/*	.iScrollVerticalScrollbar{
+		display: none !important;
+		}*/
+		.fp-section,
+		.fp-slide,
+		.fp-tableCell{
+			height: auto !important;
+		}
+		.fp-scrollable, .fp-scrollable{
+		}
+		.menu{
+			display: none;
+			overflow-y: hidden;
+			clear: both;
+			margin-top: 25px;
+		}
+		.burger{
+			display: inline-block;
+			
+		}
+		.menu ul{
+			text-align: center;
+			padding-left: 0;
+		}
+		.modal{
+			width: 90%;
+			margin: auto;
+			padding: 20px 10px;
+		}
+		.fancybox-inner{
+			overflow: hidden !important;
+		}
+		.modal h2{
+			font-size: 18px;
+		}
+		.nice-block p{
+			padding: 0 10px 0 0;
+		}
+		.footer--tz{
+			margin-top: 0;
+		}
+		.portfolio-content img{
+			display: none;
+		}
+		.sec4-logo{
+			display: none;
+		}
+		.cost-left p:first-child{
+			display: none;
+		}
+		.cat{
+			display: none;
+		}
+		.btn-dsc{
+			display: none;
+		}
+		.btn-mob{
+			display: block;
+		}
+		.img-garanty{
+			display: none;
+		}
+		.mob-item{
+			display: inline-block;
+			float: right;
+		}
+		.desc-item{
+			display: none;
+		}
+		.menu ul{
+			margin-bottom: 0;
+		}
+		.menu ul li{
+			display: block;
+			float: none;
+			margin-top: 15px;
+			text-align: center;
+		}
+		.menu ul li a{
+			font-size: 20px;
+		}
+		.btn-mob{
+			text-align: center;
+		}
+		.cost-about{
+			overflow: hidden;
+		}
+		.cost-left{
+			padding-top: 0;
+		}
+		.portfolio-content.mob-item{
+			float: none;
+			display: block;
+			text-align: center;
+		}
+		.burger button{
+			padding-top: 5px;
+		}
+		.portfolio-content h2 span{
+			line-height: 30px;
+		}
+		.portfolio-content h2{
+			margin-bottom: 20px;
+		}
+		.cost-left .cost{
+			margin-bottom: 30px;
+		}
+		.portfolio-content{
+			position: static;
+		}
+		.wrap-scroll{
+			height: auto;
+		}
+		.portfolio-content .mob-item{
+			float: none;
+		}
+	}
+	@media (max-width: 513px) {
+		.cost-item{
+			width: 100%;
+		}
+		.cost-item h4{
+			min-height: auto;
+		}
+		.burger button{
+			padding-top: 5px;
+		}
+		.logo{
+			padding-top: 10px;
+		}
+		.contact-img, .contact-content{
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		.section--garanty h2, .cost-right h2, .bot-form h3{
+			font-size: 28px;
+		}
+		.section--begin h1{
+			font-size: 28px;
+		}
+		.section--begin h1 span, .cost-right h2 span, .section--garanty h2 span, .bot-form p{
+			font-size: 14px;
+		}
+		.logo{
+			width: 80px;
+		}
+		.burger{
+			padding: 10px 5px;
+		}
+		.phone a{
+			font-size: 14px;
+		}
+		.phone {
+			display: block;
+		}
+		.menu ul li a{
+			font-size: 18px;
+		}
+		.cost-left{
+			padding-top: 0;
+		}
+		.cost-item p, .cost-item h4, .garanty-item h4{
+			margin-bottom: 5px;
+		}
+		.cost-item{
+			margin-bottom: 15px;
+		}
+		.cost-item p{
+			padding-right: 0;
+		}
+		.garanty-item{
+			margin-bottom: 20px;
+		}
+		.section--stydio p, .cost-item p, .garanty-item p{
+			font-size: 13px;
+		}
+		.tz-btn, .tz-btn p{
+			text-align: center;
+			padding-left: 0;
+		}
+		.modal--call .tz-btn button{
+			width: 100%;
+		}
+		.menu ul li{
+			display: block;
+			float: none;
+		}
+		.footer, .footer, .footer-right, .footer-centr{
+			text-align: right;
+		}
+	}

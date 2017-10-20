@@ -1,0 +1,899 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Главная</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/main-inner.css">
+</head>
+<body>
+
+	<!-- begin wrapper  -->
+	<div class="wrapper">
+		<!-- begin header  -->
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="row__col-xl-6 header__item header__item--indent">
+						<!-- begin header__logo  -->
+						<div class="header__logo">
+							<a href="#"><img src="assets/img/logo.png" alt="Логотип"></a>
+							<span>Интернет магазин умных часов</span>
+						</div>
+						<!-- end header__logo -->
+
+						<!-- begin header__info  -->
+						<div class="header__info">
+							<span>В наличии<br>в 32 городах России</span>
+						</div>
+						<!-- end header__info -->
+						
+						<button class="btn-menu">
+							<span class="btn-menu__line"></span>
+							<span class="btn-menu__line"></span>
+							<span class="btn-menu__line"></span>
+						</button>
+					</div>
+
+					<div class="row__col-xl-6 header__item">
+						<!-- begin header__contacts  -->
+						<div class="header__contacts header__contacts--indent">
+							<span>Выберите город: <a href="#modal-city" class="js-btn-modal btn-city">г. Томск</a></span>
+							<a href="tel:88001007195" class="header__contacts-tel">8 (800) 100 71 95</a>
+						</div>
+						<!-- end header__contacts -->
+
+						<!-- begin header__contacts  -->
+						<div class="header__contacts">
+							<span>Адрес: ул. Красноармейская 96</span>
+							<a href="tel:83822222258" class="header__contacts-tel">8 (3822) 22-22-58</a>
+						</div>
+						<!-- end header__contacts -->
+
+						<a href="#modal-call" class="header__btn-modal js-btn-modal">Перезвонить мне</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- end header -->
+
+		<!-- begin nav  -->
+		<nav class="nav">
+			<div class="container">
+				<ul class="nav-list">
+					<li class="nav-list__item"><a href="#" class="nav-list__link">Главная</a></li>
+					<li class="nav-list__item"><a href="#" class="nav-list__link">Каталог</a></li>
+					<li class="nav-list__item"><a href="#" class="nav-list__link">Как купить</a></li>
+					<li class="nav-list__item"><a href="#" class="nav-list__link">Доставка и оплата</a></li>
+					<li class="nav-list__item"><a href="#" class="nav-list__link">Контакты</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- end nav -->
+<div class="bread-crumbs">
+	<div class="container">
+		<a href="#">Главная</a>
+		<span>Контакты</span>
+	</div>
+</div>
+
+<!-- begin catalogue  -->
+<section class="catalogue">
+	<div class="container">
+		<!-- begin filter  -->
+		<div class="filter">
+			<span class="filter__title">Фильтры:</span>
+
+			<!-- begin filter-list  -->
+			<ul class="filter-list">
+				<!-- begin filter-list__item  -->
+				<li class="filter-list__item">
+					<a href="#" class="filter-list__link">Цена</a>
+
+					<ul class="filter-dropdown filter-dropdown--indent">
+						<li class="filter-dropdown__item">
+							<i>Укажите цену от и до в руб.:</i>
+
+							<div class="filter-dropdown__price">
+								<input type="text" placeholder="1000">	
+								<input type="text" placeholder="5000">	
+							</div>
+						</li>
+					</ul>
+				</li>	
+				<!-- end filter-list__item -->
+				
+				<!-- begin filter-list__item  -->
+				<li class="filter-list__item">
+					<a href="#" class="filter-list__link">Назначение часов-телефона</a>
+
+					<ul class="filter-dropdown">
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="sort1">
+							<label for="sort1">Премиум</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="sort2">
+							<label for="sort2">Детские</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="sort3">
+							<label for="sort3">Для экзаменов</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="sort4">
+							<label for="sort4">Спортивные</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="sort5">
+							<label for="sort5">Android</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="sort6">
+							<label for="sort6">Женские</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="sort7">
+							<label for="sort7">Умные часы</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="sort8">
+							<label for="sort8">Две SIM-карты</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="sort9">
+							<label for="sort9">Водостойкие</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+					</ul>
+				</li>	
+				<!-- end filter-list__item -->
+
+				<!-- begin filter-list__item  -->
+				<li class="filter-list__item">
+					<a href="#" class="filter-list__link">SIM-карта</a>
+
+					<ul class="filter-dropdown">
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="sim1">
+							<label for="sim1">Нет</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+						
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="sim2">
+							<label for="sim2">1 Mini-SIM</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+						
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="sim3">
+							<label for="sim3">1 Micro-SIM</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+						
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="sim4">
+							<label for="sim4">2 Micro-SIM</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+						
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="sim5">
+							<label for="sim5">Nano-SIM</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="sim6">
+							<label for="sim6">1 SIM</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+					</ul>
+				</li>	
+				<!-- end filter-list__item -->
+
+				<!-- begin filter-list__item  -->
+				<li class="filter-list__item">
+					<a href="#" class="filter-list__link">Карта памяти</a>
+
+					<ul class="filter-dropdown">
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="mem1">
+							<label for="mem1">Нет</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+						
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="mem2">
+							<label for="mem2">Да</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+						
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="mem3">
+							<label for="mem3">Miro-SD дл 8 Гб</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+						
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="mem4">
+							<label for="mem4">Miro-SD дл 16 Гб</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+						
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="mem5">
+							<label for="mem5">Miro-SD дл 32 Гб</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="mem6">
+							<label for="mem6">Встроенная карта памяти до 8 Гб</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="mem7">
+							<label for="mem7">Поддержка TF карт до 16 Гб</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+					</ul>
+				</li>	
+				<!-- end filter-list__item -->
+				
+				<!-- begin filter-list__item  -->
+				<li class="filter-list__item">
+					<a href="#" class="filter-list__link">Камера</a>
+
+					<ul class="filter-dropdown">
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="cam1">
+							<label for="cam1">Нет</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="cam2">
+							<label for="cam2">0,3 МП</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="cam3">
+							<label for="cam3">1,3 МП</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="cam4">
+							<label for="cam4">2 МП</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="cam5">
+							<label for="cam5">3 МП</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="cam6">
+							<label for="cam6">5 МП</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+					</ul>
+				</li>	
+				<!-- end filter-list__item -->
+				
+				<!-- begin filter-list__item  -->
+				<li class="filter-list__item">
+					<a href="#" class="filter-list__link">Интернет</a>
+
+					<ul class="filter-dropdown">
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="in1">
+							<label for="in1">GPRS</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+						
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="in2">
+							<label for="in2">WAP</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+						
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="in3">
+							<label for="in3">3G</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+						
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="in4">
+							<label for="in4">EDGE</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+
+						<!-- begin filter-dropdown__item  -->
+						<li class="filter-dropdown__item">
+							<input type="checkbox" name="checkbox" id="in5">
+							<label for="in5">HSPA+</label>
+						</li>
+						<!-- end filter-dropdown__item -->
+					</ul>
+				</li>	
+				<!-- end filter-list__item -->
+			</ul>
+			<!-- end filter-list -->
+
+			<button class="filter__btn">Сбросить фильтры</button>
+		</div>
+		<!-- end filter -->
+
+		<!-- begin catalogue__items  -->
+		<div class="catalogue__items">
+			<div class="row">
+				<div class="row__col-lg-3 row__col-sm-6">
+					<!-- begin card-block  -->
+					<div class="card-block card-block--catalogue">
+						<div class="card-block__image">
+							<a href="#">
+								<img src="assets/img/card-block1.jpg" alt="Фотография товара">
+							</a>
+						</div>
+
+						<div class="card-block__title">
+							<a href="#">Smart Watch GV-11</a>
+						</div>
+
+						<div class="card-block__info">
+							<p><b>Интерфейс:</b> RU/EN</p>
+							<p><b>Память:</b> 128+64 Мбайт, +MicroSD (до 16 гигабайт)</p>
+							<p><b>Камера:</b> 1,3 мегапикс</p>
+						</div>
+
+						<span><i>5200</i> 2900 руб.</span>
+
+						<button class="card-block__btn card-block__btn--bg">Купить</button>
+						<a href="#" class="card-block__more">подробнее</a>
+					</div>
+					<!-- end card-block -->
+				</div>
+				
+				<div class="row__col-lg-3 row__col-sm-6">
+					<!-- begin card-block  -->
+					<div class="card-block card-block--catalogue">
+						<div class="card-block__image">
+							<a href="#">
+								<img src="assets/img/card-block1.jpg" alt="Фотография товара">
+							</a>
+						</div>
+
+						<div class="card-block__title">
+							<a href="#">Smart Watch GV-11</a>
+						</div>
+
+						<div class="card-block__info">
+							<p><b>Интерфейс:</b> RU/EN</p>
+							<p><b>Память:</b> 128+64 Мбайт, +MicroSD (до 16 гигабайт)</p>
+							<p><b>Камера:</b> 1,3 мегапикс</p>
+						</div>
+
+						<span><i>5200</i> 2900 руб.</span>
+
+						<button class="card-block__btn card-block__btn--bg">Купить</button>
+						<a href="#" class="card-block__more">подробнее</a>
+					</div>
+					<!-- end card-block -->
+				</div>
+				
+				<div class="row__col-lg-3 row__col-sm-6">
+					<!-- begin card-block  -->
+					<div class="card-block card-block--catalogue">
+						<div class="card-block__image">
+							<a href="#">
+								<img src="assets/img/card-block1.jpg" alt="Фотография товара">
+							</a>
+						</div>
+
+						<div class="card-block__title">
+							<a href="#">Smart Watch GV-11</a>
+						</div>
+
+						<div class="card-block__info">
+							<p><b>Интерфейс:</b> RU/EN</p>
+							<p><b>Память:</b> 128+64 Мбайт, +MicroSD (до 16 гигабайт)</p>
+							<p><b>Камера:</b> 1,3 мегапикс</p>
+						</div>
+
+						<span><i>5200</i> 2900 руб.</span>
+
+						<button class="card-block__btn card-block__btn--bg">Купить</button>
+						<a href="#" class="card-block__more">подробнее</a>
+					</div>
+					<!-- end card-block -->
+				</div>
+
+				<div class="row__col-lg-3 row__col-sm-6">
+					<!-- begin card-block  -->
+					<div class="card-block card-block--catalogue">
+						<div class="card-block__image">
+							<a href="#">
+								<img src="assets/img/card-block1.jpg" alt="Фотография товара">
+							</a>
+						</div>
+
+						<div class="card-block__title">
+							<a href="#">Smart Watch GV-11</a>
+						</div>
+
+						<div class="card-block__info">
+							<p><b>Интерфейс:</b> RU/EN</p>
+							<p><b>Память:</b> 128+64 Мбайт, +MicroSD (до 16 гигабайт)</p>
+							<p><b>Камера:</b> 1,3 мегапикс</p>
+						</div>
+
+						<span><i>5200</i> 2900 руб.</span>
+
+						<button class="card-block__btn card-block__btn--bg">Купить</button>
+						<a href="#" class="card-block__more">подробнее</a>
+					</div>
+					<!-- end card-block -->
+				</div>
+			</div>
+		</div>
+		<!-- end catalogue__items -->
+	</div>
+</section>
+<!-- end catalogue -->
+
+<!-- begin reviews  -->
+<section class="reviews reviews--indent">
+	<div class="container">
+		<h2 class="section-title">Отзывы о смарт-часах</h2>
+
+		<div class="reviews__inner">
+			<div class="row">
+				<div class="row__col-lg-6">
+					<!-- begin reviews-block  -->
+					<div class="reviews-block">
+						<!-- begin reviews-block__header  -->
+						<div class="reviews-block__header">
+							<div class="reviews-block__col reviews-block__col--sm">
+								<div class="reviews-block__user">
+									<img src="assets/img/rev.jpg" alt="Фотография пользователя">
+									<span>Филипп</span>
+									<i>пользвоатль</i>
+								</div>
+							</div>
+
+							<div class="reviews-block__col reviews-block__col--lg">
+								<p>Купил модель <b>smart watch gt08</b>, в интернете посмотрел отзывы, сравнил цены и решил брать здесь. Доставили за два дня, все в порядке, очень доволен, звоню по ним постоянно, в машине очень удобно по ним разговаривать. Еще понравился фитнесс-трекер, на тренировках очень помогает. Спасибо!</p>
+							</div>
+						</div>
+						<!-- end reviews-block__header -->
+
+						<!-- begin reviews-block__footer  -->
+						<div class="reviews-block__footer">
+							<!-- begin reviews-block__col  -->
+							<div class="reviews-block__col reviews-block__col--sm">
+								<img src="assets/img/rev-img.jpg" alt="фотография товара">
+							</div>
+							<!-- end reviews-block__col -->
+
+							<!-- begin reviews-block__col  -->
+							<div class="reviews-block__col reviews-block__col--lg">
+								<div class="reviews-block__rating">
+									<span>Оценка товара:</span>
+									<a href="#">Smart Watch GT08</a>
+								</div>
+								
+								<!-- begin stars  -->
+								<div class="stars"> 
+									<div class="stars__star active"></div> 
+									<div class="stars__star active"></div> 
+									<div class="stars__star active"></div> 
+									<div class="stars__star active"></div> 
+									<div class="stars__star"></div> 
+								</div>
+								<!-- end stars -->
+							</div>
+							<!-- end reviews-block__col -->
+						</div>
+						<!-- end reviews-block__footer -->
+					</div>
+					<!-- end reviews-block -->
+				</div>
+
+				<div class="row__col-lg-6">
+					<!-- begin reviews-block  -->
+					<div class="reviews-block">
+						<!-- begin reviews-block__header  -->
+						<div class="reviews-block__header">
+							<div class="reviews-block__col reviews-block__col--sm">
+								<div class="reviews-block__user">
+									<img src="assets/img/rev2.jpg" alt="Фотография пользователя">
+									<span>Филипп</span>
+									<i>пользвоатль</i>
+								</div>
+							</div>
+
+							<div class="reviews-block__col reviews-block__col--lg">
+								<p>Купил модель <b>smart watch gt08</b>, в интернете посмотрел отзывы, сравнил цены и решил брать здесь. Доставили за два дня, все в порядке, очень доволен, звоню по ним постоянно, в машине очень удобно по ним разговаривать. Еще понравился фитнесс-трекер, на тренировках очень помогает. Спасибо!</p>
+							</div>
+						</div>
+						<!-- end reviews-block__header -->
+
+						<!-- begin reviews-block__footer  -->
+						<div class="reviews-block__footer">
+							<!-- begin reviews-block__col  -->
+							<div class="reviews-block__col reviews-block__col--sm">
+								<img src="assets/img/rev-img.jpg" alt="фотография товара">
+							</div>
+							<!-- end reviews-block__col -->
+
+							<!-- begin reviews-block__col  -->
+							<div class="reviews-block__col reviews-block__col--lg">
+								<div class="reviews-block__rating">
+									<span>Оценка товара:</span>
+									<a href="#">Smart Watch GT08</a>
+								</div>
+								
+								<!-- begin stars  -->
+								<div class="stars"> 
+									<div class="stars__star active"></div> 
+									<div class="stars__star active"></div> 
+									<div class="stars__star active"></div> 
+									<div class="stars__star active"></div> 
+									<div class="stars__star"></div> 
+								</div>
+								<!-- end stars -->
+							</div>
+							<!-- end reviews-block__col -->
+						</div>
+						<!-- end reviews-block__footer -->
+					</div>
+					<!-- end reviews-block -->
+				</div>
+			</div>
+
+			<div class="reviews__more">
+				<a href="#">Посмотреть еще</a>
+			</div>
+
+			<div class="popular-tovars__more popular-tovars__more--blue">
+				<a href="#modal-review">Написать отзыв</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- end reviews -->
+	
+<!-- begin footer  -->
+<footer class="footer">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="row">
+				<div class="row__col-lg-2 row__col-xs-6">
+					<span>Покупателям</span>
+
+					<nav>
+						<ul>
+							<li><a href="#">Как оплатить заказ</a></li>
+							<li><a href="#">Доставка товара</a></li>
+							<li><a href="#">Возврат/обмен товара</a></li>
+							<li><a href="#">Публичная оферта</a></li>
+							<li><a href="#">О компании</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="row__col-lg-2 row__col-xs-6">
+					<span>Меню</span>
+
+					<nav>
+						<ul>
+							<li><a href="#">Главная</a></li>
+							<li><a href="#">Катлог</a></li>
+							<li><a href="#">Как купить</a></li>
+							<li><a href="#">Доставка и оплата</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="row__col-lg-push-4 row__col-lg-4 row__col-xs-12">
+					<!-- begin footer__item  -->
+					<div class="footer__item">
+						<div class="footer__wrap">
+							<span>Бесплатный звонок:</span>
+							<a href="tel:88001007195" class="footer__number">8 (800) 100 71 95</a>
+						</div>
+
+						<a href="#modal-call" class="footer__btn-modal">Перезвонить мне</a>
+					</div>
+					<!-- end footer__item -->
+
+					<!-- begin footer__right  -->
+					<div class="footer__right">
+						<i>Вы можете сделать заказ<br> через <a href="#">Whatsapp <img src="assets/img/f1.png" alt="Логотип Whatsapp"></a><br> или <a href="#">Viber <img src="assets/img/f2.png" alt="Логотип Viber"></a></i>
+						<a href="tel:89832331033">8 (983) 233 10 33</a>
+					</div>
+					<!-- end footer__right -->
+
+					<!-- begin footer__right-mobile  -->
+					<div class="footer__right-mobile">
+						<i>Заказ через <a href="#">Whatsapp</a> или <a href="#">Viber</a>: <a href="tel:89832331033"><img src="assets/img/f1.png" alt="Логотип Whatsapp"><img src="assets/img/f2.png" alt="Логотип Viber">8 (983) 233 10 33</a></i>
+					</div>
+					<!-- end footer__right-mobile -->
+				</div>
+
+				<div class="row__col-lg-pull-4 row__col-lg-4 row__col-xs-12">
+					<div class="footer__center">
+						<span>Мы в соцсетях:</span>
+
+						<div class="footer__social">
+							<a href="#"><img src="assets/img/soc1.png" alt="Логотип vk.com"></a>
+							<a href="#"><img src="assets/img/soc2.png" alt="Логотип instagram.com"></a>
+							<a href="#"><img src="assets/img/soc3.png" alt="Логотип facebook.com"></a>
+							<a href="#"><img src="assets/img/soc4.png" alt="Логотип youtube.com"></a>
+							<a href="#"><img src="assets/img/soc5.png" alt="Логотип ok.ru"></a>
+						</div>
+
+						<p>Чтобы купить понравившиеся смарт-часы, не нужно посещать торговые магазины или ждать долгие очереди на кассах. Добро пожаловать на maskphone.ru - торговую площадку, которая предлагает вам оформить заказ, не выходя из дома. У нас представлен огромный выбор умных часов.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- end footer -->
+</div>
+<!-- end wrapper -->
+
+<!-- begin modal  -->
+<div class="modal modal--city" id="modal-city">
+	<span>Выберите город:</span>
+
+	<div class="modal__inner">
+		<div class="row">
+			<div class="row__col-md-3 row__col-xs-4">
+				<div class="modal__item">
+					<i>Б</i>
+					<a href="#">Белгород</a>
+					<a href="#">Брянск</a>
+					<a href="#">Барнаул</a>
+				</div>
+				
+				<div class="modal__item">
+					<i>Б</i>
+					<a href="#">Белгород</a>
+					<a href="#">Брянск</a>
+					<a href="#">Барнаул</a>
+				</div>
+			</div>
+			
+			<div class="row__col-md-3 row__col-xs-4">
+				<div class="modal__item">
+					<i>Б</i>
+					<a href="#">Белгород</a>
+					<a href="#">Брянск</a>
+					<a href="#">Барнаул</a>
+				</div>
+				
+				<div class="modal__item">
+					<i>Б</i>
+					<a href="#">Белгород</a>
+					<a href="#">Брянск</a>
+					<a href="#">Барнаул</a>
+				</div>
+			</div>
+			
+			<div class="row__col-md-3 row__col-xs-4">
+				<div class="modal__item">
+					<i>Б</i>
+					<a href="#">Белгород</a>
+					<a href="#">Брянск</a>
+					<a href="#">Барнаул</a>
+				</div>
+				
+				<div class="modal__item">
+					<i>Б</i>
+					<a href="#">Белгород</a>
+					<a href="#">Брянск</a>
+					<a href="#">Барнаул</a>
+				</div>
+			</div>
+			
+			<div class="row__col-md-3 row__col-xs-4">
+				<div class="modal__item">
+					<i>Б</i>
+					<a href="#">Белгород</a>
+					<a href="#">Брянск</a>
+					<a href="#">Барнаул</a>
+				</div>
+				
+				<div class="modal__item">
+					<i>Б</i>
+					<a href="#">Белгород</a>
+					<a href="#">Брянск</a>
+					<a href="#">Барнаул</a>
+				</div>
+			</div>
+			
+			<div class="row__col-md-3 row__col-xs-4">
+				<div class="modal__item">
+					<i>Б</i>
+					<a href="#">Белгород</a>
+					<a href="#">Брянск</a>
+					<a href="#">Барнаул</a>
+				</div>
+				
+				<div class="modal__item">
+					<i>Б</i>
+					<a href="#">Белгород</a>
+					<a href="#">Брянск</a>
+					<a href="#">Барнаул</a>
+				</div>
+			</div>
+			
+			<div class="row__col-md-3 row__col-xs-4">
+				<div class="modal__item">
+					<i>Б</i>
+					<a href="#">Белгород</a>
+					<a href="#">Брянск</a>
+					<a href="#">Барнаул</a>
+				</div>
+				
+				<div class="modal__item">
+					<i>Б</i>
+					<a href="#">Белгород</a>
+					<a href="#">Брянск</a>
+					<a href="#">Барнаул</a>
+				</div>
+			</div>
+			
+			<div class="row__col-md-3 row__col-xs-4">
+				<div class="modal__item">
+					<i>Б</i>
+					<a href="#">Белгород</a>
+					<a href="#">Брянск</a>
+					<a href="#">Барнаул</a>
+				</div>
+				
+				<div class="modal__item">
+					<i>Б</i>
+					<a href="#">Белгород</a>
+					<a href="#">Брянск</a>
+					<a href="#">Барнаул</a>
+				</div>
+			</div>
+			
+			<div class="row__col-md-3 row__col-xs-4">
+				<div class="modal__item">
+					<i>Б</i>
+					<a href="#">Белгород</a>
+					<a href="#">Брянск</a>
+					<a href="#">Барнаул</a>
+				</div>
+				
+				<div class="modal__item">
+					<i>Б</i>
+					<a href="#">Белгород</a>
+					<a href="#">Брянск</a>
+					<a href="#">Барнаул</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end modal -->
+
+<!-- begin modal  -->
+<div class="modal modal--call modal--call1" id="modal-call">
+	<h2>Просто введите свои данные и мы <br>перезвоним Вам в ближайшее время.</h2>
+	<form>
+		<div class="order__contacts-item">
+			<p>Имя и фамилия <b>*</b>: </p><span>Напишите свое имя и фамилию!</span>
+			<input type="text" placeholder="Стас Перевалов">
+		</div>
+		<div class="order__contacts-item">
+			<p>Телефон<b>*</b>: </p><span>Напишите свой номер телефона!</span>
+			<input type="text" placeholder="8-800-555-35-35">
+		</div>
+		<div class="order__contacts-item">
+			<p>Город<b>*</b>: </p><span>Напишите название своего города!</span>
+			<input type="text" placeholder="Барнаул ">
+		</div>
+		<button>Перезвоните мне</button>
+	</form>
+</div>
+<!-- end modal -->
+
+<!-- begin modal  -->
+<div class="modal modal--call modal--review" id="modal-review">
+	<h2>Ваш отзыв о наших часах</h2>
+	<form>
+		<div class="order__contacts-item">
+			<p>Имя и фамилия <b>*</b>: </p><span>Напишите свое имя и фамилию!</span>
+			<input type="text" placeholder="Стас Перевалов">
+		</div>
+		<div class="order__contacts-item">
+			<p>Адрес страницы в соц.сетях<b>*</b>: </p><span>Нужно скопировать и вставить ссык на вашу страницу в соцюсетях!</span>
+			<input type="text" placeholder="8-800-555-35-35">
+		</div>
+		<div class="order__contacts-item">
+			<p>Ваш отзыв<b>*</b>: </p><span>Напишите отзыв о том,чем смогли быть полезны наши часы.</span>
+			<textarea placeholder="Барнаул"></textarea>
+		</div>
+		<div class="order__contacts-item order__contacts-item--stars">
+			<p>Оценка товара<b>*</b>: </p><span>Поставьте оценку товару.</span>
+			<div class="stars">
+				<div class="stars__star active"></div>
+				<div class="stars__star active"></div>
+				<div class="stars__star active"></div>
+				<div class="stars__star active"></div>
+				<div class="stars__star"></div>
+			</div>
+		</div>
+		<button>Опубликовать отзыв</button>
+	</form>
+</div>
+<!-- end modal -->
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

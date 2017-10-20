@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="header__menu">
+				<div class="logo-mob"><img src="img/logo.png" alt="logo"></div>
+				<div class="burger">
+					<button>
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+				<ul>
+					<li class="line-link"><a href="#">Главная</a></li>
+					<li ><a href="#reg" class="fancybox">Личный кабинет</a></li>
+					<li class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></li>
+					<li class="line-link"><a href="#">Пакеты</a></li>
+					<li><a href="#" class="news-btn">Новости</a> <span>12</span>
+						<div class="fanc-wrap">
+							
+							<div class="news-box">
+								<div class="news-box__item">
+									<div class="news-box__info">
+										<h4>Новость</h4>
+										<p>здесь будет описание новости 1 здесь будет описание новости </p>
+									</div>
+									<div class="go-news">
+										<a href="#">Подробнее</a>
+									</div>
+								</div>
+								<div class="news-box__item news-box__item--priority">
+									<div class="news-box__info">
+										<h4>Приоритетная новость с длинным заголовком </h4><span>1</span>
+										<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. Он характеризуется высокой эмоциональностью, </p>
+									</div>
+									<div class="go-news">
+										<a href="#">Подробнее</a>
+									</div>
+								</div>
+								<div class="news-box__item">
+									<div class="news-box__info">
+										<h4>Новость</h4>
+										<p>здесь будет описание новости 1 здесь будет описание новости </p>
+									</div>
+									<div class="go-news">
+										<a href="#">Подробнее</a>
+									</div>
+								</div>
+								<div class="all-news">
+									<a href="#">Смотреть все</a>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	
+	<main>
+		<section class="news">
+			<div class="container">
+				<div class="wrap-f">					
+					<h2 class="page-title">Новости</h2>
+					<div class="filter-date">
+						<select name="date">
+							<option value="1">Сортировать по дате</option>
+							<option value="1">Сортировать по дате</option>
+							<option value="1">Сортировать по дате</option>
+						</select>
+					</div>
+				</div>
+				<ul class="tabs-list"> 
+					<li class="tabs-list__item tabs-list__item_active"><button type="button" data-content="content1">Все новости</button></li> 
+					<li class="tabs-list__item"><button type="button" data-content="content2">Новости проекта</button></li>
+					<li class="tabs-list__item"><button type="button" data-content="content3">Новости базы знаний </button></li>
+					<li class="tabs-list__item"><button type="button" data-content="content4">Новости игровой индустрии</button></li>
+					<li class="filter">
+						<input type="checkbox" class="checkbox" id="cb1">
+						<label for="cb1">Показать только непросмотренные</label>
+					</li>
+				</ul> 
+			</div>
+
+			<div class="tabs__content tabs__content_active" id="content1">
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item news-item--noread">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item news-item--noread">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+			</div>
+			<div class="tabs__content" id="content2">
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item news-item--noread">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item news-item--noread">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+			</div>
+			<div class="tabs__content" id="content3">
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item news-item--noread">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item news-item--noread">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+			</div>
+			<div class="tabs__content" id="content4">
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item news-item--noread">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+				<div class="news-item news-item--noread">
+					<div class="container">
+						<a href="#"><span>1</span> Новость</a><i>29.30.17 в 21:00</i>
+						<p>Художественный стиль – это особый стиль речи, который получил широкое распространение как в мировой художественной литературе в целом, так и в копирайтинге в частности. </p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__left">				
+				<h4>Обращайтесь по всем вопросам по этим контактам:</h4>
+				<p>
+					<span>Телефон: 89059320</span>
+					<span>E-mail:dfeg@egesgw.com</span>
+					<span class="soc">
+						<a href="#"><img src="img/soc-ico1.png" alt="soc"></a>
+						<a href="#"><img src="img/soc-ico2.png" alt="soc"></a>
+					</span>
+				</p>
+				<p><a href="http://gt.jadebear.ltd/">http://gt.jadebear.ltd/</a></p>
+			</div>
+			<div class="footer__right">
+				<div class="footer__logo"><a href="#"><img src="img/logo-bot.png" alt="logo bot"></a></div>
+				<p>(c) 2017	<br>Все права защищены</p>
+			</div>
+		</div>
+	</footer>
+	<div class="hidden">
+		<div class="modal modal-leson leson" id="leson">
+			<h2>Выбор игры через игровые площадки <span>1</span> <button><img src="img/link.png" alt="link"></button></h2>
+			<div class="leson-wrap">
+				<div class="leson__video">
+					<iframe width="480" height="300" src="https://www.youtube.com/watch?v=Z74TPyCbvgU" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="leson__info">
+					<div class="leson__date"><span>Создан: 23.03.2017</span> <span>Обновлен: 23.03.2017</span></div>
+					<p>Как уже было сказано выше, художественный стиль наиболее часто используется в художественной литературе: романах, новеллах, рассказах, повестях и прочих литературных жанрах. Этому стилю не присущи оценочные суждения: </p>
+					<ul>
+						<li>- сухость</li>
+						<li>- официальность</li>
+					</ul> 
+					<p>которые свойственны научному и официально-деловому стилям. Вместо этого для него характеры повествование и передача мельчайших деталей, чтобы сформировать в воображении </p>
+				</div>
+				<p>Как уже было сказано выше, художественный стиль наиболее часто используется в художественной литературе: романах, новеллах, рассказах, повестях и прочих литературных жанрах. Этому стилю не присущи оценочные суждения, сухость и официальность, которые свойственны научному и официально-деловому стилям. Вместо этого для него характеры повествование и передача мельчайших деталей, чтобы сформировать в воображении читателя филигранную форму передаваемой мысли.</p>
+			</div>
+			<div class="comment-write">
+				<textarea placeholder="Написать комментарий...">Написать комментарий...</textarea>
+				<div class="avatar"><img src="" alt=""></div>
+				<div class="comment-bar">
+					<div class="add-file">
+						<button><img src="img/photo-add.png" alt="add"></button>
+						<button><img src="img/video-add.png" alt="add"></button>
+					</div>
+					<button class="send-comment">Отправить</button>
+				</div>
+			</div>
+			<div class="coments-read">
+				<div class="coment">
+					<div class="coment__ava"><img src="" alt=""></div>
+					<div class="coment__info">
+						<b>Татьяна Сибелиус</b> <div class="coment__date">23.10.2017 в 11:00</div>
+						<p>Какой крутой урок, я просто в восторге! С помощью этого расширения, разработанного командой Google Переводчика, можно быстро переводить веб-страницы.</p>
+					</div>
+				</div>
+				<div class="coment">
+					<div class="coment__ava"><img src="" alt=""></div>
+					<div class="coment__info">
+						<b>Татьяна Сибелиус</b> <div class="coment__date">23.10.2017 в 11:00</div>
+						<p>Какой крутой урок, я просто в восторге! С помощью этого расширения, разработанного командой Google Переводчика, можно быстро переводить веб-страницы.</p>
+					</div>
+				</div>
+				<div class="coment">
+					<div class="coment__ava"><img src="" alt=""></div>
+					<div class="coment__info">
+						<b>Татьяна Сибелиус</b> <div class="coment__date">23.10.2017 в 11:00</div>
+						<p>Какой крутой урок, я просто в восторге! С помощью этого расширения, разработанного командой Google Переводчика, можно быстро переводить веб-страницы.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal modal--reg" id="reg">
+			<ul class="tabs-list1"> 
+				<li class="tabs-list__item1 "><button type="button" data-content="content11">Вход</button></li> 
+				<li class="tabs-list__item1 tabs-list__item_active1"><button type="button" data-content="content12">Регистрация</button></li>
+			</ul> 
+			<div class="tabs__content1 " id="content11">
+				<div class="enter-form">
+					<form>
+						<p>
+							<img src="img/form-ico1.jpg" alt="ico">
+							<span>Логин</span>
+							<input type="text" placeholder="Введите логин">
+						</p>
+						<p>
+							<img src="img/form-ico3.jpg" alt="ico">
+							<span>Пароль</span>
+							<input type="text" placeholder="Введите Пароль">
+						</p>
+						<button>Вход</button>
+					</form>
+				</div>
+			</div>
+			<div class="tabs__content1 tabs__content_active1" id="content12">
+				<div class="enter-form">
+					<form>
+						<p>
+							<img src="img/form-ico1.jpg" alt="ico">
+							<span>Логин</span>
+							<input type="text" placeholder="Введите логин">
+						</p>
+						<p>
+							<img src="img/form-ico2.jpg" alt="ico">
+							<span>E-mail</span>
+							<input type="text" placeholder="Введите E-mail">
+						</p>
+						<p>
+							<img src="img/form-ico3.jpg" alt="ico">
+							<span>Пароль</span>
+							<input type="text" placeholder="Введите Пароль">
+						</p>
+						<button>Зарегистрироваться</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&amp;subset=cyrillic-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>

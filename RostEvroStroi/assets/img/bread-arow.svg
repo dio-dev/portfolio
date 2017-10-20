@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9.063" height="13.312" viewBox="0 0 9.063 13.312">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #c3cedc;
+        stroke-linecap: square;
+        stroke-linejoin: bevel;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="bread-arow.svg" class="cls-1" d="M428.5,193.55l4.95,4.95-4.95,4.949" transform="translate(-425.375 -191.844)"/>
+</svg>

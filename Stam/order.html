@@ -1,0 +1,312 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>project</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/plugin.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+	<!-- begin header  -->
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="row__col-md-3 row__col-xs-6">
+					<a href="#" class="header__logo"><img src="assets/img/logo.jpg" alt="Логотип"></a>
+				</div>
+
+				<div class="row__col-md-9 row__col-xs-6 header__right">
+					<!-- begin nav-toggle  -->
+					<div class="nav-toggle">
+						<button>
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+					<!-- end nav-toggle -->
+
+					<!-- begin nav-list  -->
+					<div class="nav-list">
+						<!-- begin nav  -->
+						<nav class="nav">
+							<ul>
+								<li><a href="#">Оборудование</a></li>
+								<li><a href="#">Схема работы</a></li>
+								<li><a href="#">О нас</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</nav>
+						<!-- end nav -->
+
+						<!-- begin header__cont  -->
+						<div class="header__cont">
+							<a href="tel:88007772936">8 800 777-29-36</a>
+							<span>Горячая линия</span>
+						</div>
+						<!-- end header__cont -->
+					</div>
+					<!-- end nav-list -->
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- end header -->
+	<main class="order-page">
+		<div class="bread-crumbs">
+			<div class="container">
+				<a href="#">Главная </a><i class="zmdi zmdi-long-arrow-right"></i>
+				<span> Взять в аренду</span>
+			</div>
+		</div>
+		<form>
+			<section class="order">
+				<div class="container">
+					<div class="row__col-lg-7">
+						<h2 class="title">Оформление аренды</h2>
+						<div class="order-item">
+							<div class="order-item__img"><img src="assets/img/order-img.jpg" alt="img"></div>
+							<div class="order-item__title"><h4>Физиодиспансер Expertsurg lux </h4></div>
+							<div class="order-item__cost"> 4 500 ₽</div>
+						</div>
+						<div class="buy_with">
+							<h4 class="buy-with__title">Сопутствующий товар</h4>
+							<div class="buy-with-wrap">
+								<input type="checkbox" id="lop3"  class="checkbox">
+								<label for="lop3"><i class="zmdi zmdi-square-o"></i> <i class="zmdi zmdi-check-square"></i> Ирригационные трубки для аппаратов NSK</label>
+								<div class="order-amount">
+									<button class="dec">-</button>
+									<input class="quanity" type="text" value="1">
+									<button class="inc">+</button>
+									<span> шт.</span>
+								</div>
+								<div class="buy-with__cost">1 000 ₽</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="client-info">
+				<div class="container">
+					<h4 class="order-title">1. Информация о клиенте</h4>
+					<div class="client-info__item client-info__item--name">
+						<span>Ваше имя</span>
+						<div class="client-input">
+							<input type="text" placeholder="">
+							<div class="err-info">Напишите  имя</div>
+						</div>
+					</div>
+					<div class="client-info__item client-info__item--tell">
+						<span>Контактный телефон</span>
+						<div class="client-input">
+							<input type="text" placeholder="">
+							<div class="err-info">Напишите правильно телефон</div>
+						</div>
+					</div>
+					<div class="client-info__item">
+						<span>Ваш е-mail</span>
+						<div class="client-input">
+							<input type="text" placeholder="">
+							<div class="err-info">Напишите правильно е-mail</div>
+						</div>
+					</div>
+					<div class="client-info__item">
+						<span>Название компании</span>
+						<div class="client-input">
+							<input type="text" placeholder="">
+							<div class="err-info">Напишите  имя компании</div>
+						</div>
+					</div>
+					<div class="client-info__item client-info__item--data">
+						<span>Срок аренды</span>
+						<div class="client-input"><span>c</span>
+							<div class="wrap-from">
+								<input type="text" class="datapicker" id="from" name="from">
+								<i class="zmdi zmdi-calendar"></i>
+								<i class="zmdi zmdi-chevron-down"></i>
+							</div><!-- 
+							<label for="from"><i class="zmdi zmdi-calendar"></i></label> -->
+							<span>до</span>
+							<div class="wrap-from">
+								<input type="text" class="datapicker" id="to" name="to">
+								<i class="zmdi zmdi-calendar"></i>
+								<i class="zmdi zmdi-chevron-down"></i>
+							</div>
+						</div>
+					</div>
+					<div class="client-info__item client-info__item--data client-info__item--time">
+						<span>Время доставки</span>
+						<div class="client-input">
+							<div class="wrap-from">
+								<select>
+									<option>-</option>
+									<option>01:00</option>
+									<option >02:00</option>
+								</select>
+								<i class="zmdi zmdi-chevron-down"></i>
+							</div>
+						</div>
+					</div>
+					<div class="client-info-cost delivery-cost">
+						<b>Стоимость аренды за период с <span class="from-info">21.01.2017</span> по <span class="to-info">25.01.2017</span></b>
+						<div class="del-cost"> 18 000 ₽</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="delivery">
+		<div class="container">
+			<h4 class="order-title">2. Дата и способ доставки</h4>
+
+			<div class="tovar-card__tabs">
+				<div class="tovar-card__tabs-nav1">
+					<div class="container">
+						<ul class="tabs-list1">
+							<li class="tabs-list__item1 "><button type="button" data-content="content1" class="btn-active"><i class="zmdi zmdi-circle-o"></i><i class="zmdi zmdi-dot-circle"></i><div class="delivery-ico"><img src="assets/img/delivery1.png" alt="delivery"></div>Самовывоз</button></li>
+							<li class="tabs-list__item1 tabs-list__item_active1"><button type="button" data-content="content2"><i class="zmdi zmdi-circle-o"></i><i class="zmdi zmdi-dot-circle"></i><div class="delivery-ico"><img src="assets/img/delivery2.png" alt="delivery"></div>Доставка</button></li>
+						</ul>
+					</div>
+				</div>
+				<div class="tovar-card__tabs-content">
+					<div class="tabs__content1 " id="content1">
+						<div class="delivery-cost">
+							<b>Стоимость доставки</b>
+							<div class="del-cost"> 0 ₽</div>
+						</div>
+					</div>
+					<div class="tabs__content1 tabs__content_active1" id="content2">
+						<h4 class="order-title">3. Адрес доставки</h4>
+						<div class="client-info__item">
+							<div class="client-input client-input--adr">
+								<input type="text" placeholder="">
+								<div class="err-info">Напишите правильно aдрес</div>
+							</div>
+						</div>
+						<div class="delivery-cost">
+							<b>Стоимость доставки</b>
+							<div class="del-cost"> 1 000 ₽</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="pay-change">
+			<div class="container">
+				<h4 class="order-title">4. выберите способ оплаты</h4>
+				<div class="wrap-radio">
+					<input type="radio" name="filter" id="nalichnue" class="radio" value="nalichnue"><label for="nalichnue"><i class="zmdi zmdi-circle-o"></i><i class="zmdi zmdi-dot-circle"></i><div class="delivery-ico"><img src="assets/img/pay1.png" alt="delivery"></div>Наличные при получении</label>
+					<input type="radio" name="filter" class="radio" id="beznal" value="beznal"><label for="beznal"><i class="zmdi zmdi-circle-o"></i><i class="zmdi zmdi-dot-circle"></i><div class="delivery-ico"><img src="assets/img/pay2.png" alt="delivery"></div>Безналичная оплата</label><br>
+					<input type="radio" checked name="filter" class="radio" id="onlinepay" value="onlinepay"><label for="onlinepay"><i class="zmdi zmdi-circle-o"></i><i class="zmdi zmdi-dot-circle"></i><div class="delivery-ico"><img src="assets/img/pay3.png" alt="delivery"></div>Онлайн оплата</label>
+				</div>
+				<div class="delivery-cost">
+					<b>Сумма аренды	</b>
+					<div class="del-cost"> 18 000 ₽</div>
+				</div>
+				<div class="delivery-cost">
+					<b>Доставка</b>
+					<div class="del-cost"> 1 000 ₽</div>
+				</div>
+				<div class="delivery-cost">
+					<b>Ирригационные трубки для NSK Surgic AP</b>
+					<div class="del-cost"> 1 000 ₽</div>
+				</div>
+				<div class="delivery-cost delivery-cost--final">
+					<b>Общая сумма	</b>
+					<div class="del-cost"> 24 500 ₽</div>
+				</div>
+				<div class="submit-btn">
+					<button>Подтвердить аренду</button>
+				</div>
+			</div>
+		</section>
+	</form>
+</main>
+	<!-- begin feedback  -->
+	<div class="feedback">
+		<div class="container">
+			<h2 class="title">Связаться с нами</h2>
+
+			<span>Адрес:</span>
+			<p><i class="zmdi zmdi-pin zmdi-hc-fw"></i>117420<br>Москва, ул. Наметкина 14, корп.1</p>
+
+			<span>Связаться с нами:</span>
+			<p><i class="zmdi zmdi-smartphone-iphone"></i><a href="tel:8777777777">8 777 77 77 77</a> - горячая линия</p>
+			<p><a href="tel:8777777777">8 777 77 77 77</a> - технический отдел</p>
+
+			<p><i class="zmdi zmdi-email"></i><a href="mailto:stomarenda@mail.ru">stomarenda@mail.ru</a></p>
+		</div>
+
+		<div class="map" id="map"></div>
+	</div>
+	<!-- begin footer  -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<!-- begin footer__item  -->
+				<div class="footer__item">
+					<span>Stomarenda © 2016<br>"Stomarenda". Все права защищены</span>
+				</div>
+				<!-- end footer__item -->
+
+				<!-- begin footer__item  -->
+				<div class="footer__item footer__item--right">
+					<a href="#"><i class="zmdi zmdi-vk"></i></a>
+					<a href="#"><i class="zmdi zmdi-odnoklassniki"></i></a>
+					<a href="#"><i class="zmdi zmdi-facebook"></i></a>
+					<a href="#"><i class="zmdi zmdi-youtube"></i></a>
+					<a href="#"><i class="zmdi zmdi-instagram"></i></a>
+				</div>
+				<!-- end footer__item -->
+			</div>
+		</div>
+	</div>
+	<!-- end footer -->
+
+	<!-- begin modal  -->
+	<div class="modal" id="modal">
+		<button class="modal__btn">
+			<i class="zmdi zmdi-close-circle-o"></i>
+		</button>
+		
+		<h2>Получить консультацию</h2>
+		<p>Оставьте свой номер телефона и наш менеджер свяжется с вами в течении 10 минут</p>
+
+		<div class="main-form">
+			<form>
+				<input type="text" placeholder="Ваше имя" required>
+				<input type="text" placeholder="Контактный телефон" required>
+
+				<button>Получить консультацию</button>
+			</form>
+		</div>
+	</div>
+	<!-- end modal -->
+
+	<script src="assets/js/main.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=&amp;sensor=false&amp;extension=.js"></script>
+	<script>
+		google.maps.event.addDomListener(window, 'load', init);
+
+		function init() {
+			var mapOptions = {
+				zoom: 14,
+				scrollwheel: false,
+				center: new google.maps.LatLng(55.661394, 37.555436),
+				styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
+			};
+			var mapElement = document.getElementById('map');
+			var map = new google.maps.Map(mapElement, mapOptions);
+		}
+	</script>
+</body>
+</html>

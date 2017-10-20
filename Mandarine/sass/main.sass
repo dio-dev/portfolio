@@ -1,0 +1,933 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+img
+	max-width: 100%
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+	color: #000
+	background-color: #fff
+	opacity: 1
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+.container
+	max-width: 1200px 
+.header
+	position: fixed
+	top: 0
+	left: 0
+	z-index: 10
+	min-height: 75px
+	width: 100%
+	background-color: rgba(255,255,255,0.75)
+	&__logo
+		display: inline-block
+		margin: 8px 0
+		vertical-align: middle
+	&__contacts
+		display: inline-block
+		vertical-align: middle
+		margin-left: 70px
+		margin-top: 8px
+		p
+			margin: auto
+			color: #000
+			font-weight: 400
+			font-size: 22px
+			line-height: 28px
+			a
+				float: right
+				font-weight: 700
+				transition: all 300ms;
+				color: #000
+				display: inline-block
+				margin-left: 5px
+				text-decoration: none
+				&:hover
+					color: #f58220
+	&__menu
+		float: right
+		ul
+			list-style: none
+			font-size: 0
+			padding-left: 0
+			margin: auto
+			li
+				display: inline-block
+				vertical-align: middle
+				a
+					font-family: "play"
+					font-weight: 700
+					color: #000
+					font-size: 20px
+					text-decoration: none
+					padding: 25px 15px
+					display: inline-block
+					transition: all 300ms;
+					&:hover
+						background-color: #f58220
+						color: #fff
+				&.active a
+					background-color: #f58220
+					color: #fff
+				&.vip a
+					position: relative
+					&:after
+						position: absolute
+						content: ""
+						background-image: url(../img/vip-ico.png)
+						width: 25px
+						left: 35px
+						height: 21px
+						top: 22px
+	&__burger
+		display: none
+		text-align: center
+		margin: 22px 7px;
+		vertical-align: middle
+		font-size: 0
+		padding: 10px 0
+		button
+			background-color: transparent;
+			border: none;
+			z-index: 99999;
+			outline: none
+			cursor: pointer;
+			span
+				background-color: #ffc700;
+				display: block;
+				width: 20px;
+				height: 2px;
+				margin: 3px;
+.main-img
+	margin-top: 90px				
+	position: relative
+	&:after
+		position: absolute
+		content: ""
+		background-image: url(../img/rest.png)
+		max-width: 616px
+		width: 100%
+		height: 181px
+		background-repeat: no-repeat
+		background-size: cover
+		bottom: 0
+		left: 0px
+		animation-name: spin;
+		animation-duration: 3000ms;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+.block1
+	background-image: url(../img/top-img.jpg)
+	min-height: 1066px
+	background-repeat: no-repeat
+	background-position: center top
+	&__desc
+		text-align: center
+		h2
+			color: #f58220
+			font-size: 63px
+			font-weight: 400
+			text-transform: uppercase
+		p
+			font-size: 20px
+			font-weight: 400
+			color: #1f1f1f 
+			padding: 0 75px
+.slider
+	font-size: 0
+	&__item
+ 		background-color: rgb(248, 248, 248)
+ 		.col-md-6:first-child
+ 			padding: 45px 70px
+			h3
+				font-size: 50px
+				font-weight: 300
+				line-height: 50px
+				text-transform: uppercase
+				color: #f58220
+				margin: auto
+			h4
+				font-size: 25px
+				color: #272727
+				margin: auto
+				text-transform: uppercase
+				font-weight: 300
+			p
+				font-size: 18px
+				color: #000
+				line-height: 25px
+				font-weight: 300
+				margin-top: 30px
+	&__button
+		margin-top: 30px
+		a
+			font-size: 18px
+			color: #fff
+			display: inline-block
+			text-align: center
+			text-decoration: none
+			line-height: 63px
+			font-weight: 400
+			background-color: rgb(3, 159, 208)
+			box-shadow: 0px 8px 25px 0px rgba(25, 24, 27, 0.4)
+			width: 250px
+			height: 60px
+			text-transform: uppercase
+			border-radius: 30px
+			border: none
+			&:hover
+				background-color: #0690bc
+				transition: all 300ms;
+.slick-arrow
+	width: 60px
+	height: 60px
+	border: none
+	position: absolute
+	right: 0
+	bottom: 0
+	z-index: 5
+	background-color: #3d3d3d
+	background-image: url(../img/arrow-next.png)	
+	background-position: center
+	outline: none
+	transition: all 300ms;
+	background-repeat: no-repeat	
+	&:hover
+		background-color: #039fd0	
+.slick-prev
+	background-image: url(../img/arrow-prew.png)
+	right: 60px
+	bottom: 0
+.slick-dots
+	position: absolute
+	left: 0
+	padding-left: 0
+	display: inline-block
+	text-align: center
+	bottom: -30px
+	right: 0
+	margin: auto
+	list-style: none
+	li
+		display: inline-block
+		vertical-align: middle
+		margin: 0 7px
+		button
+			width: 13px
+			height: 13px
+			background-color: #FFF
+			border: none
+			border-radius: 50%
+		&.slick-active
+			position: relative
+		&.slick-active:after
+				position: absolute
+				left: 0
+				right: 0
+				top: 0
+				bottom: 0	
+				content: ""
+				margin: auto
+				width: 9px
+				height: 9px
+				background-color: #039fd0
+				border-radius: 50%
+
+.block2
+	background-image: url(../img/bg-block3.png)
+	min-height: 1190px
+	background-repeat: no-repeat
+	background-repeat: no-repeat
+	background-position: center
+.title-block
+	text-align: center
+	font-size: 63px
+	text-transform: uppercase
+	font-weight: 400
+	color: #fff
+	margin-top: 50px
+.call-us
+	& .col-md-6:first-child
+		padding-left: 75px
+	&__title
+		font-size: 50px
+		color: #f58220
+		text-transform: uppercase
+		font-weight: 400
+	&__item
+		span
+			background-color: #f58220
+			width: 60px
+			height: 60px
+			text-align: center
+			font-size: 50px
+			line-height: 60px
+			color: #fff
+			border-radius: 10px
+			padding-top: 7px
+			display: inline-block
+			vertical-align: middle
+		p
+			display: inline-block
+			vertical-align: middle
+			font-size: 30px
+			font-weight: 300
+			color: #242424
+			margin: 20px 0
+			line-height: 38px
+			margin-left: 40px
+			a
+				display: block
+				color: #242424
+				text-decoration: none
+				font-weight: 400
+	&__form
+		position: relative
+		z-index: 5
+		input
+			width: 48%
+			padding-left: 12px
+			border: 1px solid #ff9832
+			outline: none
+			float: left
+			height: 50px
+			border-radius: 15px
+			&:nth-child(2)
+				float: right
+		textarea
+			width: 100%
+			padding-left: 12px
+			border: 1px solid #ff9832
+			outline: none
+			height: 160px
+			resize: none
+			margin-top: 35px 
+			padding-top: 7px
+			border-radius: 15px
+		button
+			width: 220px
+			height: 60px
+			margin: auto
+			margin-top: 35px
+			font-size: 18px
+			color: #fff
+			text-transform: uppercase
+			font-weight: 400
+			background-color: rgb(3, 159, 208)
+			box-shadow: 0px 8px 25px 0px rgba(25, 24, 27, 0.4)
+			border: none
+			border-radius: 30px
+			display: block
+			&:hover
+				background-color: #0690bc
+				transition: all 300ms;
+.follow
+	background-image: url(../img/block4-bg.png)
+	min-height: 650px
+	background-position: center top
+	background-repeat: no-repeat
+	position: relative
+	margin-top: -140px
+	p
+		color: #151515
+		font-size: 24px
+		text-align: center
+		line-height: 36px
+		margin-top: 285px
+		font-weight: 300
+		text-transform: uppercase
+		b
+			color: #fff
+			font-size: 36px
+			display: block
+			font-weight: 400
+	&-wrap
+		text-align: center
+		margin-top: 70px
+	&__ico
+		display: inline-block
+		vertical-align: middle
+		margin: 0 50px
+		a
+			width: 340px
+			height: 140px
+			background-color: #FFF
+			border-radius: 15px	
+			position: relative
+			transition: all 300ms;
+			padding-top: 27px
+			display: inline-block
+			&:hover
+				opacity: .9
+.vip-block
+	background-image: url(../img/vip-bg.jpg)
+	min-height: 525px
+	text-align: center
+	background-repeat: no-repeat
+	background-position: center
+	&__title
+		margin-top: 140px
+	p
+		font-size: 30px
+		color: #181818
+		margin: 30px 0
+		line-height: 30px
+.btn
+	text-align: center
+	a
+		padding: 0 40px
+		height: 60px
+		margin: auto
+		font-size: 18px
+		line-height: 64px
+		color: #fff
+		text-transform: uppercase
+		font-weight: 400
+		background-color: rgb(3, 159, 208)
+		box-shadow: 0px 8px 25px 0px rgba(25, 24, 27, 0.4)
+		border: none
+		border-radius: 30px
+		text-decoration: none
+		display: inline-block
+		&:hover
+			background-color: #0690bc
+			text-decoration: none
+			transition: all 300ms;
+.tickets
+	background-image: url(../img/tickts-bg.jpg)
+	min-height: 519px
+	background-position: center
+	text-align: center
+	position: relative
+	background-repeat: no-repeat
+	border-bottom: 7px solid #f58220
+	& .title-block
+		color: #000
+		margin-bottom: 0px
+		margin-top: 120px
+	p
+		font-size: 30px
+		color: #181818
+		margin: 30px 0
+		line-height: 30px
+.gid-btn
+	position: absolute
+	bottom: 0px
+	left: 0
+	right: 0
+	margin: auto
+	text-align: center
+	a
+		display: inline-block
+		background-image: url(../img/gid-btn.png)
+		width: 301px
+		height: 58px
+		font-size: 18px
+		text-transform: uppercase
+		transition: all 300ms;
+		color: #fff
+		text-decoration: none
+		line-height: 65px
+		&:hover
+			opacity: .9
+.wrap-map
+	font-size: 0
+	position: relative
+	height: 550px
+.map
+	width: 50%
+	position: relative
+	display: inline-block
+	vertical-align: middle
+	height: 550px
+.plashka
+	position: absolute
+	width: 300px
+	padding: 30px 45px
+	height: 50%
+	z-index: 5
+	background-color: #FFF
+	&--1
+		top: 0px
+		right: 50%
+	h4
+		text-transform: uppercase
+		font-size: 30px
+		color: #010101
+		font-weight: 400
+		text-align: center
+		margin-top: 0
+		margin-bottom: 30px
+	ul
+		list-style: none
+		padding-left: 0
+		margin: auto
+		li
+			display: block
+			margin-bottom: 10px
+			font-size: 20px
+			color: #010101
+			font-weight: 300
+			span
+				font-family: 'FontAwesome'
+				color: #039fd0
+				display: inline-block
+				margin-right: 15px
+	&--2
+		bottom: 0px
+		left: 50%
+		ul li span
+			color: #f58220
+.contacts
+	background-image: url(../img/contacts-bg.jpg)
+	background-position: center top
+	background-repeat: no-repeat
+	.title-block
+	  color: #f58220
+	  margin-top: 140px
+	  line-height: 63px
+	  span
+	  	display: block
+	  	font-size: 30px
+	  	color: #161616
+.footer
+	background-image: url(../img/footer-bg.jpg)
+	min-height: 210px
+	background-size: cover
+	&-top
+		padding: 20px 0
+		border-bottom: 1px solid #d9d7d5
+	&__menu
+		display: inline-block
+		ul
+			list-style: none
+			padding-left: 0
+			margin: auto
+			li
+				padding: 30px 0
+				margin-right: 35px
+				display: inline-block
+				vertical-align: middle
+				position: relative
+				a
+					color: #000
+					font-size: 20px
+					font-weight: 400
+					transition: all 300ms;
+					text-decoration: none
+					&:hover
+						color: #f58220
+				&.active:after
+					position: absolute
+					content: ''
+					width: 100%
+					height: 2px
+					left: 0
+					bottom: -20px
+					background-color: #f58220
+				&.active a
+					color: #f58220
+	&__logo
+		float: right
+	&-bot
+		p
+			font-weight: 300
+			padding: 10px 0
+			color: #0f0e0e
+			padding-left: 15px
+
+			font-size: 18px
+		span
+			float: right
+			a
+				color: #000
+				text-decoration: none
+				&:hover
+					color: #f58220	
+.workers
+	padding-bottom: 50px
+	.title-block
+		color: #f58220
+	&-wrap
+	&__item
+		width: 250px
+		margin-bottom: 20px
+		float: left
+		margin-right: 56px
+		text-align: center
+		p:nth-child(2)
+			margin-top: 30px
+		&:last-child
+			margin-right: 0
+		p
+			font-size: 24px
+			color: #010101
+			line-height: 30px
+			margin: auto
+			a
+				font-weight: 300
+				color: #929292
+				margin-left: 5px
+				display: inline-block
+				vertical-align: middle
+				font-size: 18px
+.page
+	margin-top: 85px
+.category
+	p
+		font-size: 18px
+		line-height: 30px
+		font-weight: 300
+		color: #000
+.page-title
+	color: #f58220
+	margin-top: 40px
+	text-transform: uppercase
+	font-size: 63px
+	font-weight: 400
+	text-align: center
+	margin-bottom: 0
+.contacts-min
+	background-image: url(../img/category-cont-bg.png)
+	min-height: 241px
+	background-position: center top
+	background-size: cover
+	text-align: center
+.category
+	padding-bottom: 30px
+.contacts__item
+	display: inline-block
+	vertical-align: middle
+	margin: 60px 50px
+	width: 350px
+	height: 123px
+	border-radius: 18px
+	border: 4px solid #fff
+	background-color: #ff9226
+	text-align: left
+	color: #fff
+	padding: 23px 25px
+	span
+		width: 60px
+		height: 60px
+		background-color: #FFF
+		border: 2px solid #f58220
+		border-radius: 10px
+		font-size: 37px
+		display: inline-block
+		color: #f58220
+		text-align: center
+		vertical-align: middle
+	p
+		display: inline-block
+		vertical-align: middle
+		font-size: 30px
+		font-weight: 300
+		margin: auto
+		margin-left: 25px
+		line-height: 34px
+		a
+			color: #fff
+			font-weight: 400
+.category-form
+	padding-bottom: 45px
+	background-image: url(../img/form-bg.png)
+	background-repeat: no-repeat
+	background-position: center 
+	background-size: cover
+	.page-title
+		font-size: 50px	
+		font-weight: 400
+	form
+		max-width: 610px
+		margin: auto
+		input
+			width: 48%
+			padding-left: 12px
+			border: 1px solid #ff9832
+			outline: none
+			height: 50px
+			border-radius: 15px
+			background-color: rgba(255,255,255,.9)
+			&:nth-child(2)
+				float: right
+		textarea
+			width: 100%
+			padding-left: 12px
+			border: 1px solid #ff9832
+			outline: none
+			height: 160px
+			background-color: rgba(255,255,255,.9)
+			resize: none
+			margin-top: 35px 
+			padding-top: 7px
+			border-radius: 15px
+		button
+			width: 220px
+			height: 60px
+			margin: auto
+			margin-top: 35px
+			font-size: 18px
+			color: #fff
+			text-transform: uppercase
+			font-weight: 400
+			background-color: rgb(3, 159, 208)
+			box-shadow: 0px 8px 25px 0px rgba(25, 24, 27, 0.4)
+			border: none
+			border-radius: 30px
+			display: block
+			&:hover
+				background-color: #0690bc
+				transition: all 300ms;
+	&--ready
+		background-image: url(../img/ready-img.jpg)
+		.page-title
+			color: #fff
+.pick-tour
+	background-color: #fff2e5
+	text-align: center
+	p
+		font-size: 18px
+		color: #010101
+		font-weight: 300
+		line-height: 28px
+		margin-top: 0px
+		margin-bottom: 50px
+.tour-info
+	p
+		font-size: 18px
+		color: #000
+		line-height: 30px
+		font-weight: 300
+		margin: 40px 0
+.tour-item
+	position: relative
+	margin-bottom: 40px
+	a:hover
+		opacity: .9
+		transition: all 300ms;
+	span
+		position: absolute
+		left: 0
+		right: 0
+		margin: auto
+		bottom: 0
+		padding: 7px 15px
+		background-color: #f58220
+		font-size: 24px
+		color: #fff
+		text-align: left
+		line-height: 24px
+.about-us
+	p
+		font-size: 20px
+		line-height: 32px
+		color: #000
+		font-weight: 300
+.contacts-min--1
+	background-image: none
+	.contacts__item
+		background-color: #FFF
+		p
+			color: #242424
+			a
+				color: #242424
+		span
+			background-color: #f58220
+			color: #fff
+.our-award
+	background-image: url(../img/award-bg.jpg)
+	min-height: 716px
+	background-size: cover
+	text-align: center
+	background-position: center
+	.page-title
+		color: #fff
+.award-item
+	margin-bottom: 65px
+	position: relative
+	z-index: 1
+	a
+		display: inline-block
+		position: relative
+		&:before
+			position: absolute
+			content: ""
+			background-image: url(../img/award-rm.png)
+			width: 279px
+			height: 227px
+			z-index: -1
+			background-repeat: no-repeat
+			left: -33px;
+			right: 0;
+			top: 21px;
+			bottom: 0
+			margin: auto
+.country
+	background-image: url(../img/country-bg.jpg)
+	background-position: center
+	padding-bottom: 70px
+	background-size: cover
+	&-wrap
+		border-radius: 25px
+		background-color: rgba(255, 255, 255,0.85)
+		box-shadow: 0px 20px 40px 0px rgba(25, 24, 27, 0.35)
+		min-height: 847px
+		padding: 40px
+
+	&-column
+		width: 25%
+		float: left
+		h4
+			font-size: 36px
+			color: #050505
+			font-weight: 400
+			margin: auto
+		ul
+			list-style: none
+			padding-left: 0
+			margin: auto
+			li
+				margin: 10px 0
+				a
+					color: #050505
+					font-size: 22px
+					line-height: 22px
+					font-weight: 300
+					span
+						margin-left: 15px
+						display: inline-block
+						max-width: 80%
+						vertical-align: middle
+					img
+						display: inline-block
+						vertical-align: middle
+						
+.country-slider
+	margin-bottom: 20px
+.nav-slider
+	&__item
+		text-align: center
+	&__item:first-child
+		text-align: left
+	&__item:last-child
+		text-align: right
+	.slick-active
+		outline: none
+	.slick-slide img
+		border: 3px solid transparent
+	.slick-current img
+		border: 3px solid #ff9204
+.country-single
+	padding-bottom: 30px
+	p
+		font-weight: 300
+		font-size: 18px
+		line-height: 30px
+		color: #000
+.box, .box .fancybox-inner
+	width: 1100px !important
+	height: 550px
+.modal
+	padding: 20px 70px
+.modal form
+	input
+		width: 29%
+		padding-left: 12px
+		border: 1px solid #ff9832
+		outline: none
+		height: 50px
+		border-radius: 15px
+		margin: 30px 15px 0
+	button
+		width: 220px
+		height: 60px
+		margin: auto
+		margin: 80px auto 30px
+		font-size: 18px
+		color: #fff
+		text-transform: uppercase
+		font-weight: 400
+		background-color: rgb(3, 159, 208)
+		box-shadow: 0px 8px 25px 0px rgba(25, 24, 27, 0.4)
+		border: none
+		border-radius: 30px
+		display: block
+		&:hover
+			background-color: #0690bc
+			transition: all 300ms;
+.tour-change
+	padding: 0 75px
+
+	.tabs-wrap
+		border-radius: 25px
+		position: relative
+		z-index: 5
+		background-color: rgb(255, 255, 255)
+		box-shadow: 0px 6px 40px 0px rgba(25, 24, 27, 0.35)
+		min-height: 549px
+		padding: 60px 70px
+	.tabs-list
+		list-style: none
+		margin: auto
+		text-align: center
+		padding-left: 0
+		li
+			display: inline-block
+			vertical-align: middle
+			position: relative
+			margin: 0 -70px
+			button  
+				background-color: transparent
+				border: none
+				background-image: url(../img/stat-tab.png)
+				width: 391px
+				outline: none
+				height: 65px
+				transition: all 300ms;
+				color: #000
+				text-transform: uppercase
+		.tabs-list__item_active
+			z-index: 2
+			button
+				color: #fff
+				background-image: url(../img/active-tab.png)
+				width: 352px
+.our-award .page-title
+	margin-bottom: 40px
+.slick-initialized .slick-slide
+	cursor: pointer
+	
+@import "media" // Всегда в конце

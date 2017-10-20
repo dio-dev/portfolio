@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'exo';
+    src: url('Exo2-Regular.otf');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'exo';
+    src: url('Exo2-Bold.otf');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'exo';
+    src: url('Exo2-Light.otf');
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'exo';
+    src: url('Exo2-Medium.otf');
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'exo';
+    src: url('Exo2-Thin.otf');
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'rouble';
+    src: url('RUBSN.otf');
+    font-style: normal;
+    font-weight: 100;
+}

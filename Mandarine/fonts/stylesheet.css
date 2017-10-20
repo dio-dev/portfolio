@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'next';
+    src: url('DINNextCYR-Regular.otf');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'next';
+    src: url('DINNextCYR-Bold.otf');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'next';
+    src: url('DINNextCYR-Light.otf');
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'play';
+    src: url('Play-Bold.ttf');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'const';
+    src: url('CONSTANB.TTF');
+    font-style: normal;
+    font-weight: 700;
+}

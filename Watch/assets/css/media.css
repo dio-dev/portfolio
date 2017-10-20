@@ -1,0 +1,351 @@
+@media (max-width: 1200px) {
+  .tovar-card .tovar-card__prise .tovar-card__prise-top{
+    padding: 15px 20px 5px;
+  }
+  .tovar-card .tovar-card__prise .tovar-card__prise-bottom .tovar-card__prise-buy{
+    font-size: 14px;
+  }
+  .tovar-card .tovar-card__delivery .tovar-card__delivery-cost p span{
+    display: block;
+  }
+  .tovar-card .tovar-card__delivery .tovar-card__delivery-cost {
+    vertical-align: top;
+  }
+  .tovar-card .tovar-card__delivery .tovar-card__delivery-place{
+    vertical-align: top;
+  }
+
+  .tovar-gallery .tovar-gallery__slider-nav{
+    width: 280px;
+  }
+  .order .order__quanity .order__quanity-cost{
+    float: none;
+    margin-top: 20px;
+  }
+  .order .order__quanity{
+    text-align: center;
+  }
+  .order .order__delivery .order__delivery-top{
+    padding: 20px;
+  }
+  .order-note .order-note__item p br{
+    display: none;
+  }
+  .order-note .order-note__item p {
+    font-size: 14px;
+  }
+  .contacts__find-form{
+    display: block;
+    margin: auto;
+    width: 75%;
+  }
+  .contacts__find-info{
+    display: block;
+    margin: auto;
+  }
+}
+@media (max-width: 991px) {
+  .tovar-card .tovar-card__prise .tovar-card__prise-bottom .tovar-card__prise-back{
+    width: 33%;
+    padding: 10px 5px;
+    font-size: 14px;
+  }
+  .howtobuy-step{
+    width: 28%;
+    margin: 0 15px;
+  }
+  .howtobuy-step p br{
+    display: none;
+  }
+  .order .order__quanity .order__quanity-calc{
+    margin-left: 0;
+  }
+  .order .order__quanity h1{
+    margin-top: 10px;
+  }
+  .tovar-card .tovar-card__prise .tovar-card__prise-bottom .tovar-card__prise-buy{
+    width: 65%;
+    padding: 10px 5px;
+  }
+  .tovar-card .tovar-card__delivery .tovar-card__delivery-place p a{
+    font-size: 12px;
+    margin-left: 5px;
+    max-width: 100px;
+  }
+  .tovar-card .tovar-card__delivery .tovar-card__delivery-cost p{
+    font-size: 12px;
+  }
+  .info .info__bot-content table tr td{
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .adventages .adventages-item{
+    padding: 0 10px;
+  }
+  .order-note .order-note__item{
+    padding: 10px;
+  }
+  .order-note .order-note__item p{
+    padding: 10px;
+  }
+  .order-note .order-note__item ul{
+    padding-left: 10px;
+  }
+  .order-note .order-note__item p br{
+    display: none;
+  }
+  .modal--thx, .modal--call{
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .modal--call .order__contacts-item{
+    margin-bottom: 10px;
+  }
+  .order-note .order-note__item{
+    max-width: 300px;
+    margin: auto;
+    min-height: auto;
+    margin-top: 10px;
+  }
+  .howtobuy-step{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 70px;
+  }
+  .howtobuy-step:after{
+    transform: rotate(90deg);
+    width: 60px;
+    -webkit-background-size: contain;
+    background-size: contain;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 165%;
+    bottom: 0;
+    background-repeat: no-repeat;
+  }
+  .howtobuy-step p{
+    font-size: 12px;
+  }
+  .howtobuy-step p br{
+    display: none;
+  }
+  .howtobuy-step:last-child{
+    margin: auto;
+  }
+  .tovar-gallery .tovar-gallery__slider-for{
+    display: inline-block;
+  }
+  .order .order__delivery .order__delivery-top{
+    padding: 25px 0px 25px 65px;
+    border-bottom: 1px solid #9ab4e5;
+  }
+  .order .order__contacts{
+    margin-bottom: 20px;
+  }
+  .order{
+    padding-bottom: 50px;
+  }
+  .tovar-gallery .tovar-gallery__slider-nav{
+    display: inline-block;
+    vertical-align: top;
+    width: 70px;
+    float: right;
+    height: 230px;
+  }
+  .tovar-gallery .tovar-gallery__slider-nav .slick-slide{
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .tovar-gallery .tovar-gallery__slider-nav .slick-prev{
+    width: auto;
+    border: 5px solid transparent;
+    border-bottom: 6px solid #1d5ba4;
+    left: 50%;
+    top: -25px;
+    z-index: 10;
+    height: auto;
+  }
+  .tovar-gallery .tovar-gallery__slider-nav .slick-next{
+    width: auto;
+    border: 5px solid transparent;
+    left: 50%;
+    bottom: -25px;
+    border-top: 6px solid #1d5ba4;
+    z-index: 10;
+    top: auto;
+    height: auto;
+  }
+  .tovar-gallery h1{
+    display: inline-block;
+    margin-left: 0;
+  }
+  .tovar-gallery{
+    padding: 0 20px;
+  }
+  .tovar-card .tovar-card__prise{
+    margin-top: 10px;
+  }
+  .tovar-card .tovar-card__tabs .tovar-card__tabs-nav ul li{
+    margin-right: 10px;
+  }
+  .tabs-list .tabs-list__item button{
+    padding: 7px 25px 5px;
+  }
+  .tovar-card .tovar-card__tabs .tovar-card__tabs-nav{
+    margin-top: -31px;
+  }
+  .adventages .adventages-item{
+    width: 50%;
+    margin-bottom: 15px;
+  }
+  .adventages__wraper{
+    padding-right: 15px;
+  }
+  .delivery-block{
+    padding: 0 15px;
+  }
+  .modal--thx h2 br{
+    display: none;
+  }
+  .modal--call h2 br{
+    display: none;
+  }
+  .modal--call h2{
+    padding: 0 10px;
+    padding-top: 50px;
+    font-size: 18px;
+  }
+  .modal--call form{
+    max-width: 90%;
+  }
+}
+@media (max-width: 513px) {
+  .tovar-gallery .tovar-gallery__slider-for{
+    max-width: 160px;
+  }
+  .delivery-block img{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .order-note h2, .howtobuy-block h2{
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .order .order__delivery .order__delivery-top{
+    padding: 20px;
+  }
+  .tovar-gallery h1{
+    font-size: 18px;
+    display: block;
+    max-width: 120px;
+  }
+  .tovar-gallery .tovar-gallery__slider-nav{
+    margin-top: -20px;
+  }
+  .tovar-card .tovar-card__prise .tovar-card__prise-top p strong{
+    font-size: 18px;
+  }
+  .tovar-card .tovar-card__prise .tovar-card__prise-top p s{
+    margin-left: 30px;
+    display: inline-block;
+    font-size: 30px;
+    float: none;
+  }
+  .tovar-card .tovar-card__prise .tovar-card__prise-top p span{
+    font-size: 12px;
+  }
+  .tovar-card .tovar-card__prise .tovar-card__prise-top span b{
+    font-size: 30px;
+  }
+  .tovar-card .tovar-card__delivery .tovar-card__delivery-place{
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .tovar-card .tovar-card__delivery .tovar-card__delivery-place p img{
+    vertical-align: middle;
+    width: 32px;
+  }
+  .tovar-card .tovar-card__delivery .tovar-card__delivery-place p{
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  .tovar-card .tovar-card__delivery .tovar-card__delivery-place p a{
+    text-align: left;
+    margin-left: 20px;
+    max-width: 103px;
+  }
+  .tovar-card .tovar-card__delivery .tovar-card__delivery-cost{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .tovar-card .tovar-card__delivery .tovar-card__delivery-cost p span{
+    display: block;
+    font-size: 14px;
+  }
+  .tovar-card .tovar-card__delivery .tovar-card__delivery-cost p {
+    display: inline-block;
+    text-align: left;
+    padding-left: 18px;
+  }
+  .tovar-card .tovar-card__delivery .tovar-card__delivery-cost:nth-child(2) p {
+    display: inline-block;
+    text-align: left;
+    padding-left: 38px;
+  }
+  .adress br{
+    display: none;
+  }
+  .adress{
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+  .tovar-card .tovar-card__tabs{
+    border-top: none;
+  }
+  .tovar-card .tovar-card__tabs .tovar-card__tabs-nav{
+    margin-top: 0;
+  }
+  .tabs-list .tabs-list__item button{
+    font-size: 12px;
+    padding: 10px 17px;
+  }
+  .tovar-card .tovar-card__tabs .tovar-card__tabs-nav ul li{
+    margin-right: 0;
+  }
+  .tovar-card .tovar-card__tabs .tovar-card__tabs-content{
+    border-top: 1px solid #1a49a0;
+  }
+  .certifikation{
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .info .info__top-content{
+    padding-left: 0;
+  }
+  .info .info__bot-content .info__bot-banner{
+    padding: 0;
+  }
+  .info .info__bot-content table tr td:first-child{
+    padding-left: 0;
+  }
+  .bread-crumbs span{
+    color: #000;
+  }
+  .contacts__find-form{
+    width: 100%;
+  }
+  .contacts__find-info{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    
+  }
+}

@@ -1,0 +1,20 @@
+@-ms-keyframes spin {
+  from { opacity: 0; }
+  to { opacity: 0; }
+  50%,75%,25% { opacity: 1}
+}
+@-moz-keyframes spin {
+  from { opacity: 0; }
+  to { opacity: 0; }
+  50%,75%,25% { opacity: 1}
+}
+@-webkit-keyframes spin {
+  from { opacity: 0; }
+  to { opacity: 0; }
+  50%,75%,25% { opacity: 1}
+}
+@keyframes spin {
+  from { opacity: 0; }
+  to { opacity: 0; }
+  50% { opacity: 1}
+} 

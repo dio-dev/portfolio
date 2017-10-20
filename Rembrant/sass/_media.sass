@@ -1,0 +1,335 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.header__menu .close-menu
+		display: inline-block !important
+	.header__menu .open-menu
+		display: none
+	.header__under-menu
+		width: 440px
+		left: auto
+		right: -80px
+		margin: auto	
+	.block1 h1
+		font-size: 42px
+	.cost-form:before
+		width: 100%
+		background-image: none
+		background-color: #fff
+	.cost-form
+		text-align: center
+		padding: 15px
+		border: 10px solid $blue
+		border-radius: 5px
+	.cost-form .text-input
+		margin-right: 0
+		margin-bottom: 20px
+	.checkbox:not(checked)+label
+		text-align: left
+		margin-top: 10px
+		margin-left: 20px
+	h2.block-title
+		font-size: 42px
+	.adventages p
+		font-size: 18px
+	.adventages__item
+		min-height: 320px
+	.tabs-list li
+		margin-right: 10px
+	.char span, .char span b
+		font-size: 15px
+	.project__about p
+		font-size: 16px
+	.want-block h4
+		font-size: 28px
+		line-height: 36px
+	.want-block ul li
+		font-size: 16px
+	.want-block:after
+		display: none
+	.about-worker:before 
+		width: 1px
+		height: 90px
+		left: 70px
+		top: -70px
+	.wrap-sert .sert
+		width: 25%
+		margin: 10px
+	.block6-form__left
+		display: block
+		margin: auto
+	.block6-form__left:after
+		display: none
+	.block6-form__right
+		display: block
+		margin: auto
+	.design__img
+		margin: auto
+	.design__form
+		margin: auto
+		display: block
+	.packet-item
+		max-width: 300px
+		margin: auto
+	.packet-item ul li span
+		font-size: 16px
+	.packet-item button
+		width: 90%
+	.question-wrap .question__title
+		font-size: 18px
+	.question-wrap
+		padding: 20px
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.header__logo p
+		font-size: 12px
+	.block1 h1 br
+		display: none
+	.block1 ul
+		margin: 20px 0
+	.cost-form:before
+		display: none
+	.cost-form
+		background-color: #FFF
+	.block1 .video-wrap
+		text-align: center
+	.adventages__item
+		text-align: center
+	h2.block-title
+		font-size: 38px
+		br
+			display: none
+	.tabs-list li
+		margin: 10px
+	.tabs-list1 li.tabs-list__item_active1:after, .tabs-list1 li.tabs-list__item_active2:after, .tabs-list1 li.tabs-list__item_active3:after, .tabs-list1 li.tabs-list__item_active4:after, .tabs-list2 li.tabs-list__item_active1:after, .tabs-list2 li.tabs-list__item_active2:after, .tabs-list2 li.tabs-list__item_active3:after, .tabs-list2 li.tabs-list__item_active4:after, .tabs-list3 li.tabs-list__item_active1:after, .tabs-list3 li.tabs-list__item_active2:after, .tabs-list3 li.tabs-list__item_active3:after, .tabs-list3 li.tabs-list__item_active4:after, .tabs-list4 li.tabs-list__item_active1:after, .tabs-list4 li.tabs-list__item_active2:after, .tabs-list4 li.tabs-list__item_active3:after, .tabs-list4 li.tabs-list__item_active4:after
+		display: none
+	.tabs-list1, .tabs-list2, .tabs-list3, .tabs-list4
+		margin: 20px 0 
+	.cost-form2
+		margin: auto  
+	.want-block ul
+		margin: 20px 0
+	.title-list
+		margin-top: 20px
+		text-align: center
+	.block6 .under-title
+		float: none
+		margin-top: 0
+		text-align: right
+	.our-work__map
+		margin-bottom: 20px
+	.wrap-foto
+		max-width: 380px
+	.block6-form
+		text-align: center
+	.block6-form__right .text-input
+		margin-right: 0
+		display: block
+		margin: auto
+		margin-bottom: 20px
+	.design__left
+		max-width: 100%
+		text-align: center
+	.design__img
+		display: block
+		text-align: center
+	.packet-item
+		margin: 10px
+		max-width: 320px
+	.design__left h4:after
+		display: none
+	.design__left p
+		margin-top: 0
+	.question-wrap .question__title p
+		max-width: 90%
+	.footer__contacts p span a
+		font-size: 18px
+	.footer__contacts p span
+		font-size: 16px
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.header__logo p
+		display: none
+	.tabs-list li button
+		font-size: 16px
+		padding: 10px 15px
+	h2.block-title--2:after
+		bottom: -10px
+	.block6 .block-title:before
+		display: none
+	.block6 .under-title
+		text-align: center
+		br
+			display: none
+	.galery-slider
+		margin: auto  
+	.fancybox-close
+		background-size: 50%
+	.packet-item
+		max-width: none
+		width: 100%
+	.footer__contacts p
+		width: 100%
+		text-align: center !important
+		margin: 5px 0
+	.header__under-menu
+		right: auto
+		left: 100%
+		-webkit-transform: translateX(-50%)
+	  	-moz-transform: translateX(-50%)
+	  	-ms-transform: translateX(-50%)
+	  	-o-transform: translateX(-50%)
+	  	transform: translateX(-50%)
+			  	  	  	  
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 580px)
+	.header__menu
+		float: right
+		position: static
+	.header
+		position: relative
+	.header__phone
+		float: none
+		text-align: center
+		display: block
+		margin-top: 20px
+	.header__under-menu
+		left: 0
+		width: 100%
+		z-index: 10
+		text-align: center
+		-webkit-transform: translateX(0)
+   	-moz-transform: translateX(0)
+   	-ms-transform: translateX(0)
+   	-o-transform: translateX(0)
+   	transform: translateX(0)
+		li  		     	
+			display: block !important
+			margin: 10px 0 
+	.header__menu .close-menu
+		display: block !important 	
+	.block1 h1
+		font-size: 24px	
+		line-height: 32px
+	.block1 ul li
+		font-size: 13px
+	h2.block-title
+		font-size: 24px
+		line-height: 32px
+	.cost-form2
+		padding: 10px
+		text-align: center
+	.cost-form2 p
+		font-size: 18px
+		br
+			display: none
+			
+	.cost-form2 button
+		font-size: 14px
+	.want-block ul li span
+		max-width: 240px
+	.wrap-workers .change-item button
+		width: 30px
+		height: 30px
+	.wrap-sert .sert
+		width: 40%
+	.block6 .under-title
+		font-size: 18px
+	.tabs-list6
+		min-height: auto
+		height: 100%
+	.block6-form__right .text-input
+		width: 100%
+	.block6-form
+		padding: 10px
+	.block6-form__left p
+		font-size: 18px
+		br
+			display: none
+	.block6-form__right button
+		font-size: 14px
+	.cost-form2
+		width: 100% 
+	.slick-dots
+		padding: 10px 20px 
+	.slick-arrow
+		width: 30px
+		height: 50px
+	.packet-item
+		margin: 10px 0
+	.question-wrap .question__title p
+		margin: 15 px 0
+		max-width: 80%
+	.question-wrap .question__title
+		font-size: 14px
+	.question-wrap .question__title span
+		float: right
+		margin: 10px 0
+	.question-wrap .question__body p
+		font-size: 14px
+	.slick-dots
+		padding: 5px
+		width: 100px  
+		height: 30px
+	.slick-dots li
+		margin: 0 3px
+	.slick-dots li button
+		width: 8px
+		height: 8px
+	.footer__contacts
+		img
+			display: block
+			margin: auto 
+	.galery-mod
+		height: auto !important
+		width: 90% !important
+	.modal--galery
+		width: auto !important 
+	.galery-mod .modal  
+		padding: 30px 20px 50px 
+	.galery-mod .fancybox-close
+		width: 15px
+		height: 15px
+		background-size: cover
+		right: 5px
+		top: 5px
+	.galery-mod .slick-prev
+		left: 0
+	.galery-mod .slick-next
+		right: 0
+	.video
+		height: 150px
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+

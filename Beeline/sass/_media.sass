@@ -1,0 +1,166 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.tree-item p
+		font-size: 12px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.content__img
+		padding: 20px 0
+	.adv-item
+		background-size: cover			
+	
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.header		
+		padding: 20px 0
+		min-height: 20px 
+		margin-bottom: 60px 
+		&__logo
+			display: none
+		&__kab
+			display: none
+		&__right
+			position: absolute
+			right: 15px
+			top: 20px
+			z-index: 10
+			text-align: right
+			min-height: 20px
+		&__burger
+			display: inline-block 
+			position: absolute
+			z-index: 20 
+			top: 20px
+			left: 15px
+			button
+				background-color: transparent
+				border: none
+				.st
+					display: block
+				.hov
+					display: none
+				&.active  
+					display: none
+				&.noactive
+					display: block
+				&:focus 
+					.hov
+						display: block
+					.st
+						display: none				
+		&__menu
+			text-align: center
+			position: absolute
+			left: 0
+			padding-top: 110px
+			right: 0
+			padding-bottom: 60px  
+			top: 0
+			width: 100%
+			background: linear-gradient(135deg, #4f2f55, #ce3f8f)
+		&__menu .header__logo
+			display: block
+		&__menu .header__kab
+			margin-left: 0
+			margin-top: 25px
+			display: block
+	.content__title h1
+		font-size: 30px
+		line-height: 35px	
+	.content__title p
+		font-size: 23px
+		padding: 0 15px 
+		span
+			font-size: 20px 
+	.content__sim
+		text-align: center
+		p
+			font-size: 16px 
+	.sim-item
+		width: 100% 
+		&__info
+			display: block
+			width: 100%
+			border-top-right-radius: 5px
+			border-bottom-left-radius: 0
+		&__btn
+			display: block
+			width: 100%  
+			button
+				width: 100%
+				border-bottom-left-radius: 5px
+				border-top-right-radius: 0	
+	.modal
+		width: 100% 
+		height: auto
+		padding: 30px 
+		h4
+			font-size: 20px
+			line-height: 25px
+			margin-bottom: 0 
+		p
+			line-height: 18px
+			font-size: 14px
+			margin-bottom: 10px
+	.fancybox-close
+		background-size: cover
+	.modal__form input
+		border-top-right-radius: 5px	
+		border-bottom-left-radius: 0	
+		display: block
+		width: 100%
+	.modal__form button
+		display: block
+		width: 100%
+		border-bottom-left-radius: 5px	
+		border-top-right-radius: 0		
+	.checkbox:not(checked)+label
+		padding: 0 0 10px 20px					 				 
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.footer__right
+		float: none
+		text-align: center
+		margin-top: 20px 
+	.header__menu ul li.line-link
+		display: block
+		a
+			border-right: 0   
+
+			
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+

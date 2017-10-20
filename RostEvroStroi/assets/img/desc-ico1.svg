@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #abc1e4;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="desc-ico1.svg" class="cls-1" d="M915,335h15v2H915v-2Zm0,4h15v2H915v-2Zm0,4h15v2H915v-2Zm0,4h15v2H915v-2Z" transform="translate(-914.5 -334.5)"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #11942d;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="downlad.svg" class="cls-1" d="M1133,692a25,25,0,1,1-25,25A25,25,0,0,1,1133,692Zm-3,16h5v11h-5V708Zm10.01,8.01-7.35,8-7.67-7.672M1125,725h14v2h-14v-2Z" transform="translate(-1108 -692)"/>
+</svg>
